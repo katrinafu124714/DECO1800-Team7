@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body {
   font-size: 16px;
   background: white;
@@ -65,9 +73,9 @@ header #teacher_mode a {
 
 #nav {
   width: 100%;
-  /* position: relative; */
+  position: absolute;
   justify-content: center;
-  padding-top: 10em;
+  padding-top: 8em;
 }
 
 #navigation {
@@ -87,7 +95,7 @@ header #teacher_mode a {
 
 #navigation li {
   list-style: none;
-  padding: 0.5em 13em;
+  padding: 0.5em 7%;
   justify-content: center;
   display: block;
 }
@@ -97,7 +105,7 @@ header #teacher_mode a {
   padding: 0em ;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 38px;
+  font-size: 3em;
   text-decoration: none;
   opacity: 1;
   text-align: center;
@@ -109,4 +117,8 @@ header #teacher_mode a {
   bottom: 0;
   text-align: center;
   padding: 0em 0em;
+}
+
+#navigation .koala img {
+  height: 200px;
 }
