@@ -2,15 +2,7 @@ $backgroundColor:yellow;
 $headerBackgroundColor:grey;
 $footerBackroundColor:lightblue;
 
-@mixin header{
-    background:red;
-    align-content: center;
-}
 
-body {
-    @include header;
-    
-}
 
-    
+
 
