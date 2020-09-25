@@ -1,0 +1,10 @@
+body {
+  background: red;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+body h2 {
+  background-color: yellow;
+}
+/*# sourceMappingURL=style.css.map */
