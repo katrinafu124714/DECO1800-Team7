@@ -12,7 +12,7 @@
 
 
 
-// automatic slideshower
+// automatic slideshow
 // This code is inspired by an example found at https://www.w3schools.com/howto/howto_js_slideshow.as
 
 var index = 0;

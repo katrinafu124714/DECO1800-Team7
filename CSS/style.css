@@ -1,15 +1,13 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
 * {
   margin: 0;
   padding: 0;
 }
 
-html,body
-{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html, body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 body {
@@ -20,6 +18,8 @@ body {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   padding: 1em;
@@ -52,19 +52,20 @@ header #searching_engine input {
 }
 
 header #teacher_mode {
-  background: rgba(188,232,38,1);
+  background: #bce826;
   opacity: 1;
   position: absolute;
   padding: 1em;
   right: 1%;
-  border: 3px solid rgba(0,0,0,1);
+  border: 3px solid black;
   border-radius: 1em;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 1em;
 }
 
 header #teacher_mode a {
-  color: rgba(21,132,103,1);
+  color: #158467;
   font-family: Roboto Mono;
   font-weight: Bold;
   font-size: 36px;
@@ -72,10 +73,11 @@ header #teacher_mode a {
 }
 
 /* navigation */
-
 #nav {
   width: 100%;
   position: absolute;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding-top: 8em;
   height: 6em;
@@ -84,29 +86,36 @@ header #teacher_mode a {
 
 #navigation {
   width: 100%;
-  background: rgba(188,232,38,1);
+  background: #bce826;
   opacity: 1;
   position: absolute;
-  border: 5px solid rgba(0,0,0,1);
+  border: 5px solid black;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   z-index: -1;
 }
 
 #navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 #navigation li {
   list-style: none;
   padding: 0.5em 7%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   display: block;
 }
 
 #navigation a {
-  color: rgba(0,0,0,1);
-  padding: 0em ;
+  color: black;
+  padding: 0em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 3em;
@@ -128,11 +137,11 @@ header #teacher_mode a {
 }
 
 /* autoslider  */
-
 #article_slider_container {
   width: 100%;
   position: relative;
   padding-top: 13em;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -148,11 +157,27 @@ header #teacher_mode a {
 
 #article_slider_container .autoslider {
   display: none;
+  -webkit-animation-name: transparent;
   animation-name: transparent;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
 }
 
-@keyframes transparent {
-  from {opacity: 0.6} 
-  to {opacity: 1}
+@-webkit-keyframes transparent {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
+@keyframes transparent {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
