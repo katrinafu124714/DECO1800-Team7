@@ -10,8 +10,6 @@
 //     console.log(data)
 // });
 
-
-
 // automatic slideshow
 // This code is inspired by an example found at https://www.w3schools.com/howto/howto_js_slideshow.as
 
@@ -40,3 +38,9 @@ function autoSlider() {
 
   setTimeout(autoSlider, time); // duration of slide change
 }
+
+new Splide( '.splide', {
+	type: 'loop',
+	perPage: 3,
+	perMove: 1,
+} ).mount();

@@ -180,4 +180,9 @@ header #teacher_mode a {
     opacity: 1;
   }
 }
+
+.splide img {
+  width: 50%;
+  height: auto;
+}
 /*# sourceMappingURL=style.css.map */
