@@ -71,11 +71,15 @@ header #teacher_mode a {
   text-decoration: none;
 }
 
+/* navigation */
+
 #nav {
   width: 100%;
   position: absolute;
   justify-content: center;
   padding-top: 8em;
+  height: 6em;
+  z-index: 1;
 }
 
 #navigation {
@@ -121,4 +125,34 @@ header #teacher_mode a {
 
 #navigation .koala img {
   height: 200px;
+}
+
+/* autoslider  */
+
+#article_slider_container {
+  width: 100%;
+  position: relative;
+  padding-top: 13em;
+  box-sizing: border-box;
+}
+
+#article_slider_container div {
+  width: 100%;
+  text-align: center;
+}
+
+#article_slider_container div img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#article_slider_container .autoslider {
+  display: none;
+  animation-name: transparent;
+  animation-duration: 5s;
+}
+
+@keyframes transparent {
+  from {opacity: 0.6} 
+  to {opacity: 1}
 }
