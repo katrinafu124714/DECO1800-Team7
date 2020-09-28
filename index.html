@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="splide-2.4.12/dist/css/splide.min.css">
   <script src="splide-2.4.12/dist/js/splide.js"></script>
   <link rel="stylesheet" href="CSS/style.css" >
-  <title>Wildlife Guide Junior</title>
+  <title>Wildlife Guide Junior - Learn</title>
 </head>
 
 
@@ -37,10 +37,10 @@
   <section id = "nav">
     <nav id = "navigation">
       <ul>
-        <li class = "learn_page_link">
+        <li class = "current">
           <a href="index.html">Learn</a>
         </li>
-        <li class = "quiz_page_link">
+        <li>
           <a href = "quiz.html">Quiz</a>
         </li>
         <li class="koala">
@@ -48,10 +48,10 @@
             <img src="images/koala.png" alt="a Koala image">
           </a>
         </li>
-        <li class = "explore_page_link">
+        <li>
           <a href = "explore.html">Explore</a>
         </li>
-        <li class = "video_page_link">
+        <li>
           <a href = "video.html">Videos</a>
         </li>
       </ul>
@@ -64,17 +64,28 @@
   <section id = "article_slider_container">
     <section id="slider">
       <div class="autoslider">
+        <a href="">
         <img src="images/koala_article.jpg">
+        </a>
       </div>
     
       <div class="autoslider">
+        <a href="">
         <img src="images/bird_article.jpg">
+        </a>
       </div>
     
       <div class="autoslider">
+        <a href="">
         <img src="images/lion_article.jpg">
+        </a>
       </div>
     </section>
+
+    <div class="Unique_fact">Animal <br> 20 <br> Unique <br> Facts</div>
+    <a class="prev" onclick="slidesControler(-1)">&#10094;</a>
+    <a class="next" onclick="slidesControler(1)">&#10095;</a>
+    
   </section>
 
 

@@ -117,6 +117,10 @@ header #teacher_mode a {
   display: block;
 }
 
+#navigation li.current a {
+  color: white;
+}
+
 #navigation a {
   color: black;
   padding: 0em;
@@ -154,6 +158,16 @@ header #teacher_mode a {
   padding: 12em;
 }
 
+#article_slider_container .Unique_fact {
+  color: white;
+  font-size: 6em;
+  position: absolute;
+  top: 40%;
+  right: 60%;
+  font-weight: bold;
+  width: 20%;
+}
+
 #article_slider_container div {
   width: 100%;
   text-align: center;
@@ -171,6 +185,28 @@ header #teacher_mode a {
   animation-name: transparent;
   -webkit-animation-duration: 5s;
   animation-duration: 5s;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 0.5em;
+  color: white;
+  font-weight: bold;
+  font-size: 5em;
+  transition: 0.6s ease;
+  user-select: none;
+  border-radius: 10px;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: lightgray;
 }
 
 /* @-webkit-keyframes transparent {
@@ -211,3 +247,55 @@ header #teacher_mode a {
   border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* video page */
+
+
+
+#top_video {
+  width: 100%;
+
+  padding-top: 12em;
+  text-align: center;
+  background-image: url("../images/learn_page_background.jpg");
+}
+
+#top_video .demo_video {
+  padding: 5em;
+}
+
+#top_video .demo_video iframe{
+  width: 75em;
+  height: 50em;
+}
+
+#video_section {
+  text-align: center;
+  background-color: #bce826;
+}
+
+#video_section h1 {
+  padding: 1em;
+  font-size: 5em;
+}
+
+#videos {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#videos div {
+  padding: 3em;
+}
+
+#videos .video_part_one, .video_part_two{
+  width: 28em;
+  height: 18em;
+  background-color: lightskyblue;
+  justify-content: center;
+  margin: 6em;
+  margin-top: 3em;
+}
+
