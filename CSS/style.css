@@ -23,25 +23,16 @@ header {
   display: flex;
   width: 100%;
   padding: 1em;
-<<<<<<< Updated upstream
+
   height: 10em;
   background-image: url("../images/learn_page_background_top.jpg");
   background-size: cover;
-=======
-  height: 6em;
->>>>>>> Stashed changes
 }
 
 header #logo img {
   height: 100%;
   width: 100%;
-<<<<<<< Updated upstream
-=======
-  height: 50px;
-  font-size: 30px;
-  border: 3px solid black;
-  padding-left: 0.3em;
->>>>>>> Stashed changes
+
 }
 
 header #teacher_mode {
@@ -75,12 +66,9 @@ header #teacher_mode a {
   padding-top: 8em;
   height: 6em;
   z-index: 1;
-<<<<<<< Updated upstream
   text-align: center;
   background-image: url("../images/learn_page_background_top.jpg");
   background-size: cover;
-=======
->>>>>>> Stashed changes
 }
 
 #navigation {
@@ -140,7 +128,6 @@ header #teacher_mode a {
   position: relative;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-<<<<<<< Updated upstream
 }
 
 #article_slider_container #slider {
@@ -157,8 +144,6 @@ header #teacher_mode a {
   right: 60%;
   font-weight: bold;
   width: 20%;
-=======
->>>>>>> Stashed changes
 }
 
 #article_slider_container div {
@@ -179,7 +164,7 @@ header #teacher_mode a {
   animation-duration: 5s;
 }
 
-<<<<<<< Updated upstream
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -376,7 +361,6 @@ footer section a{
   margin-top: 3em;
 }
 
-=======
 @-webkit-keyframes transparent {
   from {
     opacity: 0.6;
@@ -395,4 +379,4 @@ footer section a{
   }
 }
 /*# sourceMappingURL=style.css.map */
->>>>>>> Stashed changes
+
