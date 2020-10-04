@@ -39,3 +39,4 @@ fetchWildNetData("koala");
 fetchWildNetData("wombat")
 
 fetchWildNetData("wallaby")
+

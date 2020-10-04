@@ -3,54 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="splide-2.4.12/dist/css/splide.min.css">
-  <script src="splide-2.4.12/dist/js/splide.js"></script>
   <link rel="stylesheet" href="CSS/style.css" >
-  <title>Wildlife Guide Junior - Learn</title>
+  <title>Wildlife Guide Junior - Animal Type</title>
 </head>
 
 
 <!-- ----------------------------LOGO && Search box------------------------------------ -->
 <body>
-  <header>
-    <div id = "logo">
-      <a href = "index.html">
-        <img src="images/Logo.png" alt="logo of the wildlife website">
-      </a>
-    </div>
-    <div>
-      <nav id = "teacher_mode">
-        <a href="quiz.html">Teacher mode</a>
-      </nav>
-    </div>
-  </header>
-
-<!-- ---------------------------Navigation bar------------------------------------- -->
-
-  <section id = "nav">
-    <nav id = "navigation">
-      <ul>
-        <li>
-          <a href="index.html">Learn</a>
-        </li>
-        <li>
-          <a href = "quiz.html">Game</a>
-        </li>
-        <li class="koala">
-          <!-- <a href="index.html"> -->
-          <img src="images/koala.png" alt="a Koala image">
-          <!-- </a> -->
-        </li>
-        <li>
-          <a href = "explore.html">Explore</a>
-        </li>
-        <li>
-          <a href = "video.html">Videos</a>
-        </li>
-      </ul>
-    </nav>
-  </section>
-  
+  <!-- head -->
+  <?php include('header.php');?>
   <section class="mammal_background">
       <div class="mammal_title">
           <h1>Mammals</h1>
@@ -70,7 +31,7 @@
       <article class="mammals">
 
           <figure>
-              <a href="animal_type.html">
+              <a href="api.html">
               <img src="images/mammal.jpg" alt="A koala image in the animal_type_selection">
               </a>
           </figure>
@@ -131,28 +92,8 @@
       </article>
     </section>
   </section>
-
-<!-- ---------------------------------------------------------------- -->
-<footer>
-  <section>
-    <a href="about.html">About us</a>
-    <a href="">Join us</a>
-    <a href="">Subscribe</a>
-  </section>
-  <section>
-    <a href="about.html">Follow us on</a>
-    <a href="">Fackbook</a>
-    <a href="">Instagram</a>
-    <a href="">Twitter</a>
-  </section>
-  <section>
-    <img src="images/Logo.png">
-  </section>
-</footer>
-<script src="JavaScript/main.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <?php include("footer.php") ?>
 </body>
-<!-- end of body -->
-<!-- ---------------------------------------------------------------- -->
+<script src="JavaScript/main.js"></script>
 
 </html>

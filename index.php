@@ -12,45 +12,10 @@
 
 <!-- ----------------------------LOGO && Search box------------------------------------ -->
 <body>
-  <header>
-    <div id = "logo">
-      <a href = "index.html">
-        <img src="images/Logo.png" alt="logo of the wildlife website">
-      </a>
-    </div>
-    <div>
-      <nav id = "teacher_mode">
-        <a href="quiz.html">Teacher mode</a>
-      </nav>
-    </div>
-  </header>
-
-<!-- ---------------------------Navigation bar------------------------------------- -->
-
-  <section id = "nav">
-    <nav id = "navigation">
-      <ul>
-        <li class = "current">
-          <a href="index.html">Learn</a>
-        </li>
-        <li>
-          <a href = "quiz.html">Game</a>
-        </li>
-        <li class="koala">
-          <!-- <a href="index.html"> -->
-          <img src="images/koala.png" alt="a Koala image">
-          <!-- </a> -->
-        </li>
-        <li>
-          <a href = "explore.html">Explore</a>
-        </li>
-        <li>
-          <a href = "video.html">Videos</a>
-        </li>
-      </ul>
-    </nav>
-  </section>
-
+  <?php 
+  $page = "learn";
+  include('header.php');
+  ?>
 
 <!-- -----------------------------Article Slider Container----------------------------------- -->
 
@@ -93,7 +58,7 @@
       <article class="mammals">
 
           <figure>
-              <a href="animal_type.html">
+              <a href="animal_type.php">
               <img src="images/mammal.jpg" alt="A koala image in the animal_type_selection">
               </a>
           </figure>
@@ -103,7 +68,7 @@
       <article class="birds">
 
           <figure>
-              <a href="animal_type.html">
+              <a href="animal_type.php">
               <img src="images/kangaroo.jpg" alt="A kangaroo image in the animal_type_selection">
               </a>
           </figure>
@@ -113,7 +78,7 @@
       <article class="fish">
 
         <figure>
-            <a href="animal_type.html">
+            <a href="animal_type.php">
             <img src="images/lion_article.jpg" alt="A lion image in the animal_type_selection">
             </a>
         </figure>
@@ -126,7 +91,7 @@
       <article class="reptile">
 
           <figure>
-              <a href="animal_type.html">
+              <a href="animal_type.php">
               <img src="images/reptiles.jpg" alt="A koala image in the animal_type_selection">
               </a>
           </figure>
@@ -136,7 +101,7 @@
       <article class="invertebrate">
 
           <figure>
-              <a href="animal_type.html">
+              <a href="animal_type.php">
               <img src="images/invertebrate.jpg" alt="A kangaroo image in the animal_type_selection">
               </a>
           </figure>
@@ -146,7 +111,7 @@
       <article class="amphibian">
 
         <figure>
-            <a href="animal_type.html">
+            <a href="animal_type.php">
             <img src="images/amphibian.jpg" alt="A lion image in the animal_type_selection">
             </a>
         </figure>
