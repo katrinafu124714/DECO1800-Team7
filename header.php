@@ -3,12 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="splide-2.4.12/dist/css/splide.min.css">
+  <script src="splide-2.4.12/dist/js/splide.js"></script>
   <link rel="stylesheet" href="CSS/style.css" >
-  <title>Wildlife Guide Junior - Explore</title>
+  <title>Wildlife Guide Junior - Learn</title>
+</head><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="splide-2.4.12/dist/css/splide.min.css">
+  <script src="splide-2.4.12/dist/js/splide.js"></script>
+  <link rel="stylesheet" href="CSS/style.css" >
+  <title>Wildlife Guide Junior - Learn</title>
 </head>
 
 
 <!-- ----------------------------LOGO && Search box------------------------------------ -->
+<main>
 <body>
   <header>
     <div id = "logo">
@@ -28,17 +40,19 @@
   <section id = "nav">
     <nav id = "navigation">
       <ul>
-        <li>
-          <a href="index.html">Learn</a>
+        <li class = "current">
+          <a href="index.php">Learn</a>
         </li>
         <li>
           <a href = "quiz.html">Game</a>
         </li>
         <li class="koala">
+          <!-- <a href="index.html"> -->
           <img src="images/koala.png" alt="a Koala image">
+          <!-- </a> -->
         </li>
-        <li class = "current">
-          <a href = "explore.html">Explore</a>
+        <li>
+          <a href = "explore.php">Explore</a>
         </li>
         <li>
           <a href = "video.html">Videos</a>
@@ -46,11 +60,4 @@
       </ul>
     </nav>
   </section>
-
-<!-- ---------------------------------------------------------------- -->
-<footer>
-  
-</footer>
-<script src="JavaScript/main.js"></script>
-
-</html>
+</main>
