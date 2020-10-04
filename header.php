@@ -24,7 +24,7 @@
 <body>
   <header>
     <div id = "logo">
-      <a href = "index.html">
+      <a href = "index.php">
         <img src="images/Logo.png" alt="logo of the wildlife website">
       </a>
     </div>
