@@ -40,11 +40,11 @@
   <section id = "nav">
     <nav id = "navigation">
       <ul>
-        <li class = "current">
+        <li class = "<?php if($page == "learn"){echo 'current';} ?>">
           <a href="index.php">Learn</a>
         </li>
-        <li>
-          <a href = "quiz.html">Game</a>
+        <li class = "<?php if($page == "game"){echo 'current';} ?>">
+          <a href = "quiz.php">Game</a>
         </li>
         <li class="koala">
           <!-- <a href="index.html"> -->

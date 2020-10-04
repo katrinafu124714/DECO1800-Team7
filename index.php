@@ -12,45 +12,10 @@
 
 <!-- ----------------------------LOGO && Search box------------------------------------ -->
 <body>
-  <header>
-    <div id = "logo">
-      <a href = "index.php">
-        <img src="images/Logo.png" alt="logo of the wildlife website">
-      </a>
-    </div>
-    <div>
-      <nav id = "teacher_mode">
-        <a href="quiz.html">Teacher mode</a>
-      </nav>
-    </div>
-  </header>
-
-<!-- ---------------------------Navigation bar------------------------------------- -->
-
-  <section id = "nav">
-    <nav id = "navigation">
-      <ul>
-        <li class = "current">
-          <a href="index.html">Learn</a>
-        </li>
-        <li>
-          <a href = "quiz.html">Game</a>
-        </li>
-        <li class="koala">
-          <!-- <a href="index.html"> -->
-          <img src="images/koala.png" alt="a Koala image">
-          <!-- </a> -->
-        </li>
-        <li>
-          <a href = "explore.html">Explore</a>
-        </li>
-        <li>
-          <a href = "video.html">Videos</a>
-        </li>
-      </ul>
-    </nav>
-  </section>
-
+  <?php 
+    include('header.php');
+    $page = "learn";
+  ?>
 
 <!-- -----------------------------Article Slider Container----------------------------------- -->
 

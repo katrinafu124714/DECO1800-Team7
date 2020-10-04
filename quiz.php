@@ -8,6 +8,7 @@
 </head> -->
 <?php 
 include('header.php');
+$page = "game";
 ?>
 
 <main>
