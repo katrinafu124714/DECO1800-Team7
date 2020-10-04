@@ -23,33 +23,14 @@ header {
   display: flex;
   width: 100%;
   padding: 1em;
-  height: 6em;
+  height: 10em;
   background-image: url("../images/learn_page_background_top.jpg");
+  background-size: cover;
 }
 
-header #logo a {
+header #logo img {
   height: 100%;
-  font-size: 2em;
-  color: black;
-  text-decoration: none;
-}
-
-header #searching_engine {
-  position: absolute;
-  right: 20%;
-}
-
-header #searching_engine fieldset {
-  padding-top: 1em;
-  border: none;
-}
-
-header #searching_engine input {
   width: 100%;
-  height: 100%;
-  font-size: 30px;
-  border: 3px solid black;
-  padding-left: 0.3em;
 }
 
 header #teacher_mode {
@@ -78,7 +59,7 @@ header #teacher_mode a {
 /* navigation */
 #nav {
   width: 100%;
-  position: absolute;
+  position: relative;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -87,13 +68,13 @@ header #teacher_mode a {
   z-index: 1;
   text-align: center;
   background-image: url("../images/learn_page_background_top.jpg");
+  background-size: cover;
 }
 
 #navigation {
   width: 100%;
   background: #bce826;
   opacity: 1;
-  position: absolute;
   border: 5px solid black;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -155,14 +136,14 @@ header #teacher_mode a {
 #article_slider_container {
   width: 100%;
   position: relative;
-  padding-top: 13em;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-image: url("../images/learn_page_background.jpg");
 }
 
 #article_slider_container #slider {
   padding: 12em;
+  background-image: url("../images/learn_page_background.jpg");
+  background-size: cover;
 }
 
 #article_slider_container .Unique_fact {
@@ -216,23 +197,7 @@ header #teacher_mode a {
   background-color: lightgray;
 }
 
-/* @-webkit-keyframes transparent {
-  from {
-    opacity: 0.6;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes transparent {
-  from {
-    opacity: 0.6;
-  }
-  to {
-    opacity: 1;
-  }
-} */
+/* animal types section */
 
 #animal_type_selection {
   text-align: center;
@@ -248,17 +213,117 @@ header #teacher_mode a {
   color: white;
 }
 
-.splide img {
-  width: 50%;
-  height: 80%;
-  border-radius: 5px;
-}
-/*# sourceMappingURL=style.css.map */
 
+.animal_types {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.animal_types article{
+  width: 28em;
+  height: 20%;
+  justify-content: center;
+  margin: 3em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.animal_types img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+
+.animal_types p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 0.3em;
+  font-size: 30px;
+}
+
+.mammals {
+  background-color: #FE7171;
+}
+
+.birds {
+  background-color: #FB7813;
+}
+
+.fish {
+  background-color: #0C9463;
+}
+
+.reptile {
+  background-color: #F8B400;
+}
+
+.invertebrate {
+  background-color: #2F80ED;
+}
+
+.amphibian {
+  background-color: #56CCF2;
+}
+
+footer {
+  display: flex;
+  background-image: url(../images/learn_page_background_top.jpg);
+  background-size: cover;
+}
+
+footer section {
+  padding: 3em;
+  padding-left: 13em;
+  display: grid;
+}
+
+footer section a{
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  height: 2em;
+}
+
+/* animal_types_page */
+
+.mammal_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/mammal_background.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.mammal_title {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-85%, 0%);
+  color: white;
+}
+
+.horizontal_line {
+  border-top: 6px solid #bce826;
+  width: 35%;
+  margin-bottom: 1.5em;
+}
+
+.mammal_title h1 {
+  font-size: 4em;
+}
+
+
+.mammal_background div img {
+  max-width: 100%;
+}
 
 /* video page */
-
-
 
 #top_video {
   width: 100%;
