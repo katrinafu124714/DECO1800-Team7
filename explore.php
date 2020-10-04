@@ -11,20 +11,9 @@
 <!-- ----------------------------LOGO && Search box------------------------------------ -->
 <body>
   <!-- head -->
- <?php include("header.php") ?>
-  <h1> Some Content </h1>
-  <h1> Some Content </h1>
-  <h1> Some Content </h1>
-  <h1> Some Content </h1>
-  <h1> Some Content </h1>
-  <h1> Some Content </h1>
-  <h1> Some Content </h1>
-  <br>
-  <h1> Some Content </h1>
-  <h1> Some Content </h1>
-  <h1> Some Content </h1>
-  <h1> Some Content </h1>
-<?php include("footer.php") ?>
+  <?php $page = "explore";include('header.php');?>
+
+  <?php include("footer.php") ?>
 </body>
 <script src="JavaScript/main.js"></script>
 

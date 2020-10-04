@@ -47,15 +47,13 @@
           <a href = "quiz.php">Game</a>
         </li>
         <li class="koala">
-          <!-- <a href="index.html"> -->
           <img src="images/koala.png" alt="a Koala image">
-          <!-- </a> -->
         </li>
-        <li>
+        <li class = "<?php if($page == "explore"){echo 'current';} ?>">
           <a href = "explore.php">Explore</a>
         </li>
-        <li>
-          <a href = "video.html">Videos</a>
+        <li class = "<?php if($page == "video"){echo 'current';} ?>">
+          <a href = "video.php">Videos</a>
         </li>
       </ul>
     </nav>

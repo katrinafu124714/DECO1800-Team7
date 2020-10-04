@@ -1,29 +1,41 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/style.css" >
-  <title>Wildlife Guide Junior - Quiz</title>
-</head> -->
-<?php 
-$page = "game";
-include('header.php');
-?>
+  <title>Wildlife Guide Junior - Animal Type</title>
+</head>
 
-<main>
-<section id = "animal_type_selection">
+
+<!-- ----------------------------LOGO && Search box------------------------------------ -->
+<body>
+  <!-- head -->
+  <?php include('header.php');?>
+  <section class="mammal_background">
+      <div class="mammal_title">
+          <h1>Mammals</h1>
+          <div class="horizontal_line"></div>
+          <p>Mammals (from Latin mamma "breast") are vertebrate animals constituting the class Mammalia (/məˈmeɪliə/), and characterized by the presence of mammary glands which in females produce milk for feeding (nursing) their young, a neocortex (a region of the brain), fur or hair, and three middle ear bones. </p>
+      </div>
+  </section>
+
+<!-- ----------------------------Animal Type Selection(mammal, amphibians...)------------------------------------ -->
+
+
+  <section id = "animal_type_selection">
     <h1>Mammals</h1>
+
     <section class="animal_types">
 
       <article class="mammals">
 
           <figure>
-              <a href="animal_type.html">
+              <a href="api.html">
               <img src="images/mammal.jpg" alt="A koala image in the animal_type_selection">
               </a>
           </figure>
-          <p>mammal</p>
+          <p>Mammal</p>
       </article>
 
       <article class="birds">
@@ -80,14 +92,8 @@ include('header.php');
       </article>
     </section>
   </section>
-
-  <?php
-    include('footer.php');
-  ?>
-
-<!-- <footer>
-  
-</footer> -->
+  <?php include("footer.php") ?>
+</body>
 <script src="JavaScript/main.js"></script>
-</main>
-<!-- </html> -->
+
+</html>
