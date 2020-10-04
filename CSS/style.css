@@ -23,7 +23,6 @@ header {
   display: flex;
   width: 100%;
   padding: 1em;
-
   height: 10em;
   background-image: url("../images/learn_page_background_top.jpg");
   background-size: cover;
@@ -32,7 +31,6 @@ header {
 header #logo img {
   height: 100%;
   width: 100%;
-
 }
 
 header #teacher_mode {
@@ -45,14 +43,16 @@ header #teacher_mode {
   border-radius: 1em;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  padding: 1em;
+  width: 13%;
+  height: 3em;
+  text-align: center;
 }
 
 header #teacher_mode a {
   color: #158467;
   font-family: Roboto Mono;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 2em;
   text-decoration: none;
 }
 
@@ -64,7 +64,7 @@ header #teacher_mode a {
   -ms-flex-pack: center;
   justify-content: center;
   padding-top: 8em;
-  height: 6em;
+  height: 5.5em;
   z-index: 1;
   text-align: center;
   background-image: url("../images/learn_page_background_top.jpg");
@@ -92,11 +92,17 @@ header #teacher_mode a {
 
 #navigation li {
   list-style: none;
-  padding: 0.5em 7%;
+  width: 25%;
+  padding: 0.7em;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   display: block;
+  text-align: center;
+}
+
+#navigation li.current a {
+  color: white;
 }
 
 #navigation a {
@@ -116,10 +122,14 @@ header #teacher_mode a {
   bottom: 0;
   text-align: center;
   padding: 0em 0em;
+  width: 10%;
 }
 
 #navigation .koala img {
-  height: 200px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
 
 /* autoslider  */
@@ -154,6 +164,7 @@ header #teacher_mode a {
 #article_slider_container div img {
   max-width: 100%;
   max-height: 100%;
+  border-radius: 5px;
 }
 
 #article_slider_container .autoslider {
@@ -163,7 +174,6 @@ header #teacher_mode a {
   -webkit-animation-duration: 5s;
   animation-duration: 5s;
 }
-
 
 .prev, .next {
   cursor: pointer;
@@ -360,23 +370,4 @@ footer section a{
   margin: 6em;
   margin-top: 3em;
 }
-
-@-webkit-keyframes transparent {
-  from {
-    opacity: 0.6;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes transparent {
-  from {
-    opacity: 0.6;
-  }
-  to {
-    opacity: 1;
-  }
-}
-/*# sourceMappingURL=style.css.map */
 
