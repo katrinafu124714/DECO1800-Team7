@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="splide-2.4.12/dist/css/splide.min.css">
-  <script src="splide-2.4.12/dist/js/splide.js"></script>
   <link rel="stylesheet" href="CSS/style.css" >
   <title>Wildlife Guide Junior - Learn</title>
 </head>
@@ -139,7 +137,6 @@
 </footer>
 <script src="JavaScript/main.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 </body>
 <!-- end of body -->
 <!-- ---------------------------------------------------------------- -->
