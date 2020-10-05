@@ -213,14 +213,11 @@ header #teacher_mode a {
   color: white;
 }
 
-
 .animal_types {
   text-align: center;
   display: flex;
   justify-content: center;
 }
-
-
 
 .animal_types article{
   width: 28em;
@@ -344,6 +341,60 @@ footer section a{
   position: relative;
 }
 
+.koala_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/koala_article.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.kangaroo_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/kangaroo.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.Dingo_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/dingo.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.possum_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/possum.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.wallaby_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/wallaby.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.humpback_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/humpback.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
 .mammal_title {
   text-align: left;
   position: absolute;
@@ -414,4 +465,15 @@ footer section a{
   justify-content: center;
   margin: 6em;
   margin-top: 3em;
+}
+
+/* particular_animal */
+
+.particular_animal {
+  text-align: left;
+  font-size: 2em;
+}
+
+.particular_animal p {
+  padding: 0.5em;
 }

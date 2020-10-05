@@ -4,14 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/style.css" >
-  <title>Wildlife Guide Junior - Animal Type</title>
+  <title>Wildlife Guide Junior - Mammals</title>
 </head>
 
 
 <!-- ----------------------------LOGO && Search box------------------------------------ -->
 <body>
   <!-- head -->
-  <?php include('header.php');?>
+  <?php $page = "mammal";
+  include('header.php');
+  include('animal_type_background.php');?>
 
 <!-- ----------------------------Animal Type Selection(mammal, amphibians...)------------------------------------ -->
 
@@ -24,31 +26,31 @@
       <article class="mammals">
 
           <figure>
-              <a href="api.html">
-              <img src="images/mammal.jpg" alt="A koala image in the animal_type_selection">
+              <a href='animalTemplate.php?id=koala'>
+              <img src="images/koala_article.jpg" alt="A koala image in the animal_type_selection">
               </a>
           </figure>
-          <p>Mammal</p>
+          <p>Koala</p>
       </article>
 
       <article class="birds">
 
           <figure>
-              <a href="animal_type.html">
+              <a href='animalTemplate.php?id=kangaroo'>
               <img src="images/kangaroo.jpg" alt="A kangaroo image in the animal_type_selection">
               </a>
           </figure>
-          <p>Birds</p>
+          <p>Kangaroo</p>
       </article>
 
       <article class="fish">
 
         <figure>
-            <a href="animal_type.html">
-            <img src="images/lion_article.jpg" alt="A lion image in the animal_type_selection">
+            <a href='animalTemplate.php?id=blue+whale'>
+            <img src="images/fish.jpg" alt="A lion image in the animal_type_selection">
             </a>
         </figure>
-        <p>Fish</p>
+        <p>Whale</p>
       </article>
     </section>
 
@@ -57,21 +59,21 @@
       <article class="reptile">
 
           <figure>
-              <a href="animal_type.html">
+              <a href='animalTemplate.php?id=Tasmanian devil'>
               <img src="images/reptiles.jpg" alt="A koala image in the animal_type_selection">
               </a>
           </figure>
-          <p>Reptiles</p>
+          <p>Tasmanian devil</p>
       </article>
 
       <article class="invertebrate">
 
           <figure>
-              <a href="animal_type.html">
+              <a href='animalTemplate.php?id=Dingo'>
               <img src="images/invertebrate.jpg" alt="A kangaroo image in the animal_type_selection">
               </a>
           </figure>
-          <p>Invertebrates</p>
+          <p>Dingo</p>
       </article>
 
       <article class="amphibian">
@@ -81,7 +83,7 @@
             <img src="images/amphibian.jpg" alt="A lion image in the animal_type_selection">
             </a>
         </figure>
-        <p>Amphibians</p>
+        <p>wallaby</p>
       </article>
     </section>
   </section>
