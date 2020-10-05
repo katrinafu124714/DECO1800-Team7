@@ -4,19 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/style.css" >
-  <title>Wildlife Guide Junior - Animal Type</title>
+  <title>Wildlife Guide Junior - Invertebrates</title>
 </head>
 
 
 <!-- ----------------------------LOGO && Search box------------------------------------ -->
 <body>
   <!-- head -->
-  <?php include('header.php');?>
+  <?php $page = "invertebrates";
+  include('header.php');
+  include('animal_type_background.php');?>
 
 <!-- ----------------------------Animal Type Selection(mammal, amphibians...)------------------------------------ -->
 
 
-  <section id = "animal_type_selection">
+  <!-- <section id = "animal_type_selection">
     <h1>Mammals</h1>
 
     <section class="animal_types">
@@ -84,7 +86,7 @@
         <p>Amphibians</p>
       </article>
     </section>
-  </section>
+  </section> -->
   <?php include("footer.php") ?>
 </body>
 <script src="JavaScript/main.js"></script>

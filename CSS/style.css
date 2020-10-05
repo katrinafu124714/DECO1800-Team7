@@ -299,6 +299,51 @@ footer section a{
   position: relative;
 }
 
+.birds_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/bird_article.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.fish_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/fish.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.reptiles_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/reptiles.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.invertebrates_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/invertebrate.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.amphibians_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/amphibian.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
 .mammal_title {
   text-align: left;
   position: absolute;

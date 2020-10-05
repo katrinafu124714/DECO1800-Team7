@@ -50,7 +50,7 @@
           <img src="images/koala.png" alt="a Koala image">
         </li>
         <li class = "<?php if($page == "explore"){echo 'current';} ?>">
-          <a href = "explore.php">Explore</a>
+          <a href = "explore.php">Map</a>
         </li>
         <li class = "<?php if($page == "video"){echo 'current';} ?>">
           <a href = "video.php">Videos</a>

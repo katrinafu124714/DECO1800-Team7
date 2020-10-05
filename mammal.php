@@ -4,14 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/style.css" >
-  <title>Wildlife Guide Junior - Animal Type</title>
+  <title>Wildlife Guide Junior - Mammals</title>
 </head>
 
 
 <!-- ----------------------------LOGO && Search box------------------------------------ -->
 <body>
   <!-- head -->
-  <?php include('header.php');?>
+  <?php $page = "mammal";
+  include('header.php');
+  include('animal_type_background.php');?>
 
 <!-- ----------------------------Animal Type Selection(mammal, amphibians...)------------------------------------ -->
 

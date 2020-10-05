@@ -58,7 +58,7 @@
       <article class="mammals">
 
           <figure>
-              <a href="animal_type.php">
+              <a href="mammal.php">
               <img src="images/mammal.jpg" alt="A koala image in the animal_type_selection">
               </a>
           </figure>
@@ -68,8 +68,8 @@
       <article class="birds">
 
           <figure>
-              <a href="animal_type.php">
-              <img src="images/kangaroo.jpg" alt="A kangaroo image in the animal_type_selection">
+              <a href="bird.php">
+              <img src="images/bird_article.jpg" alt="A kangaroo image in the animal_type_selection">
               </a>
           </figure>
           <p>Birds</p>
@@ -78,8 +78,8 @@
       <article class="fish">
 
         <figure>
-            <a href="animal_type.php">
-            <img src="images/lion_article.jpg" alt="A lion image in the animal_type_selection">
+            <a href="fish.php">
+            <img src="images/fish.jpg" alt="A lion image in the animal_type_selection">
             </a>
         </figure>
         <p>Fish</p>
@@ -91,7 +91,7 @@
       <article class="reptile">
 
           <figure>
-              <a href="animal_type.php">
+              <a href="reptiles.php">
               <img src="images/reptiles.jpg" alt="A koala image in the animal_type_selection">
               </a>
           </figure>
@@ -101,7 +101,7 @@
       <article class="invertebrate">
 
           <figure>
-              <a href="animal_type.php">
+              <a href="invertebrates.php">
               <img src="images/invertebrate.jpg" alt="A kangaroo image in the animal_type_selection">
               </a>
           </figure>
@@ -111,7 +111,7 @@
       <article class="amphibian">
 
         <figure>
-            <a href="animal_type.php">
+            <a href="amphibians.php">
             <img src="images/amphibian.jpg" alt="A lion image in the animal_type_selection">
             </a>
         </figure>
