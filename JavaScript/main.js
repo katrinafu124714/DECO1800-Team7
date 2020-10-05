@@ -67,8 +67,3 @@ function autoSlider() {
   setTimeout(autoSlider, time); // duration of slide change
 }
 
-new Splide( '.splide', {
-	type: 'loop',
-	perPage: 3,
-	perMove: 1,
-} ).mount();
