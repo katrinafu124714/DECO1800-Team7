@@ -112,32 +112,25 @@
         <section class="animal_types">
 
             <article class="mammals">
-
-                <figure>
-                    <a href='animalTemplate.php?id=koala'>
-                    <img src="images/koala_article.jpg" alt="A koala image in the animal_type_selection">
-                    </a>
-                </figure>
+                <a href='animalTemplate.php?id=koala'>
+                <div class = "background"></div>
+                </a>
                 <p>Koala</p>
             </article>
 
             <article class="birds">
 
-                <figure>
-                    <a href='animalTemplate.php?id=kangaroo'>
-                    <img src="images/kangaroo.jpg" alt="A kangaroo image in the animal_type_selection">
-                    </a>
-                </figure>
+                <a href='animalTemplate.php?id=kangaroo'>
+                <div class = "background"></div>
+                </a>
                 <p>Kangaroo</p>
             </article>
 
             <article class="fish">
 
-                <figure>
-                    <a href='animalTemplate.php?id=humpback'>
-                    <img src="images/humpback.jpg" alt="A lion image in the animal_type_selection">
-                    </a>
-                </figure>
+                <a href='animalTemplate.php?id=humpback'>
+                <div class = "background"></div>
+                </a>
                 <p>Humpback Whale</p>
             </article>
         </section>
@@ -146,31 +139,25 @@
 
             <article class="reptile">
 
-                <figure>
-                    <a href='animalTemplate.php?id=possum'>
-                    <img src="images/possum.jpg" alt="A koala image in the animal_type_selection">
-                    </a>
-                </figure>
+                <a href='animalTemplate.php?id=possum'>
+                <div class = "background"></div>
+                </a>
                 <p>Possum</p>
             </article>
 
             <article class="invertebrate">
 
-                <figure>
-                    <a href='animalTemplate.php?id=Dingo'>
-                    <img src="images/Dingo.jpg" alt="A kangaroo image in the animal_type_selection">
-                    </a>
-                </figure>
+                <a href='animalTemplate.php?id=Dingo'>
+                <div class = "background"></div>
+                </a>
                 <p>Dingo</p>
             </article>
 
             <article class='amphibian'>
 
-                <figure>
-                    <a href='animalTemplate.php?id=wallaby'>
-                    <img src="images/wallaby.jpg" alt="A lion image in the animal_type_selection">
-                    </a>
-                </figure>
+                <a href='animalTemplate.php?id=wallaby'>
+                <div class = "background"></div>
+                </a>
                 <p>Wallaby</p>
             </article>
         </section>

@@ -245,24 +245,57 @@ header #teacher_mode a {
   background-color: #FE7171;
 }
 
+.mammals .background {
+  background-image: url(../images/koala_article.jpg);
+}
+
+.mammals .background:hover {
+  background-image: url(../images/koala_cartoon.jpg);
+}
+
+.animal_types .background {
+  height: 20em;
+  background-size: cover;
+}
+
 .birds {
   background-color: #FB7813;
+}
+
+.birds .background{
+  background-image: url(../images/kangaroo.jpg);
 }
 
 .fish {
   background-color: #0C9463;
 }
 
+.fish .background {
+  background-image: url(../images/humpback.jpg);
+}
+
 .reptile {
   background-color: #F8B400;
+}
+
+.reptile .background{
+  background-image: url(../images/possum.jpg);
 }
 
 .invertebrate {
   background-color: #2F80ED;
 }
 
+.invertebrate .background{
+  background-image: url(../images/dingo.jpg);
+}
+
 .amphibian {
   background-color: #56CCF2;
+}
+
+.amphibian .background{
+  background-image: url(../images/wallaby.jpg);
 }
 
 footer {
