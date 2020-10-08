@@ -251,6 +251,7 @@ header #teacher_mode a {
 
 .mammals .background:hover {
   background-image: url(../images/koala_cartoon.jpg);
+  transition: all 1s ease;
 }
 
 .animal_types .background {
