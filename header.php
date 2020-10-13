@@ -30,7 +30,7 @@
     </div>
     <div>
       <nav id = "teacher_mode">
-        <a href="quiz.html">Teacher mode</a>
+        <a href="teacher_mode.html">Teacher mode</a>
       </nav>
     </div>
   </header>
