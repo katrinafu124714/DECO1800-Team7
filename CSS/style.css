@@ -688,3 +688,9 @@ h7 {
   text-decoration: none;
   color: black;
 }
+
+#map{
+  display: inline;
+  width: 500pt;
+  border: #FB7813;
+}
