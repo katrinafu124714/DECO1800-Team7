@@ -72,25 +72,25 @@
 
                 <article class=\"mammals\">
                     <a href='animalTemplate.php?id=$select_list[0]'>
-                    <div class = \"background\"></div>
+                    <div class = \"$select_list[0]background\"></div>
                     </a>
-                    <p>$select_list[0]</p>
+                    <p>" .ucfirst($select_list[0]). "</p>
                 </article>
     
                 <article class=\"birds\">
     
                     <a href='animalTemplate.php?id=$select_list[1]'>
-                    <div class = \"background\"></div>
+                    <div class = \"$select_list[1]background\"></div>
                     </a>
-                    <p>$select_list[1]</p>
+                    <p>" .ucfirst($select_list[1]). "</p>
                 </article>
     
                 <article class=\"fish\">
     
                     <a href='animalTemplate.php?id=$select_list[2]'>
-                    <div class = \"background\"></div>
+                    <div class = \"$select_list[2]background\"></div>
                     </a>
-                    <p>$select_list[2]</p>
+                    <p>" .ucfirst($select_list[2]). "</p>
                 </article>
             </section>
     
@@ -99,25 +99,25 @@
                 <article class=\"reptile\">
     
                     <a href='animalTemplate.php?id=$select_list[3]'>
-                    <div class = \"background\"></div>
+                    <div class = \"$select_list[3]background\"></div>
                     </a>
-                    <p>$select_list[3]</p>
+                    <p>" .ucfirst($select_list[3]). "</p>
                 </article>
     
                 <article class=\"invertebrate\">
     
                     <a href='animalTemplate.php?id=$select_list[4]'>
-                    <div class = \"background\"></div>
+                    <div class = \"$select_list[4]background\"></div>
                     </a>
-                    <p>$select_list[4]</p>
+                    <p>" .ucfirst($select_list[4]). "</p>
                 </article>
     
                 <article class=\"amphibian\">
     
                     <a href='animalTemplate.php?id=$select_list[5]'>
-                    <div class = \"background\"></div>
+                    <div class = \"$select_list[5]background\"></div>
                     </a>
-                    <p>$select_list[5]</p>
+                    <p>" .ucfirst($select_list[5]). "</p>
                 </article>
             </section>
         </section>

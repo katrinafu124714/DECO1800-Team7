@@ -227,6 +227,11 @@ header #teacher_mode a, #student_mode a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.animal_types article div {
+  height: 20em;
+  background-size: cover;
+}
+
 .animal_types img {
   max-width: 100%;
   max-height: 100%;
@@ -245,25 +250,23 @@ header #teacher_mode a, #student_mode a {
   background-color: #FE7171;
 }
 
-.mammals .background {
-  background-image: url(../images/koala_article.jpg);
-}
-
-.mammals .background:hover {
+.mammals .koalabackground {
   background-image: url(../images/koala_cartoon.jpg);
-  transition: all 1s ease;
 }
 
-.animal_types .background {
-  height: 20em;
-  background-size: cover;
+.mammals .koalabackground:hover {
+  background-image: url(../images/koala_article.jpg);
 }
 
 .birds {
   background-color: #FB7813;
 }
 
-.birds .background{
+.birds .kangaroobackground{
+  background-image: url(../images/kangaroo_cartoon.jpg);
+}
+
+.birds .kangaroobackground:hover{
   background-image: url(../images/kangaroo.jpg);
 }
 
@@ -271,7 +274,11 @@ header #teacher_mode a, #student_mode a {
   background-color: #0C9463;
 }
 
-.fish .background {
+.fish .humpbackbackground {
+  background-image: url(../images/humpback_cartoon.jpg);
+}
+
+.fish .humpbackbackground:hover {
   background-image: url(../images/humpback.jpg);
 }
 
@@ -279,7 +286,11 @@ header #teacher_mode a, #student_mode a {
   background-color: #F8B400;
 }
 
-.reptile .background{
+.reptile .possumbackground{
+  background-image: url(../images/possum_cartoon.jpg);
+}
+
+.reptile .possumbackground:hover{
   background-image: url(../images/possum.jpg);
 }
 
@@ -287,7 +298,11 @@ header #teacher_mode a, #student_mode a {
   background-color: #2F80ED;
 }
 
-.invertebrate .background{
+.invertebrate .Dingobackground{
+  background-image: url(../images/Dingo_cartoon.jpg);
+}
+
+.invertebrate .Dingobackground:hover{
   background-image: url(../images/dingo.jpg);
 }
 
@@ -295,7 +310,11 @@ header #teacher_mode a, #student_mode a {
   background-color: #56CCF2;
 }
 
-.amphibian .background{
+.amphibian .wallabybackground{
+  background-image: url(../images/wallaby_cartoon.jpg);
+}
+
+.amphibian .wallabybackground:hover{
   background-image: url(../images/wallaby.jpg);
 }
 
