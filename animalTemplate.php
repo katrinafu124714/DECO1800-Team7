@@ -13,7 +13,7 @@
     function getSpecieInfo($specie) {
 
         //API call
-        $specieURL = 'https://apps.des.qld.gov.au/species/?f=json&op=speciessearch&kingdom=animals&species='.$specie;
+        $specieURL = 'https://apps.des.qld.gov.au/species/?f=json&op=speciessearch&kingdom=animals&species='.urlencode($specie);
         $data = file_get_contents($specieURL);
         $data = json_decode($data, true);
         
