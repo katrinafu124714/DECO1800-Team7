@@ -17,15 +17,30 @@
         $data = file_get_contents($specieURL);
         $data = json_decode($data, true);
         
-
+        
         $ScientificName = $data['Species']['0']['ScientificName'];
         $ConservationStatus = $data['Species']['0']['ConservationStatus']['NCAStatus'];
 
-        $api_key = '18578751-c87aa0c0f6e901144b7f7926c';
-        $specie_image_url = 'https://pixabay.com/api/?key=' . $api_key  ."&q=". urlencode($specie);
+        // $api_key = '18578751-c87aa0c0f6e901144b7f7926c';
+        // $specie_image_url = 'https://pixabay.com/api/?key=' . $api_key  ."&q=". urlencode($specie);
+        // $img = file_get_contents($specie_image_url);
+        // $img = json_decode($img, true);
+        // $img = $img['hits'][0]['webformatURL'];
+
+        $specie_image_url = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=".urlencode($specie);
         $img = file_get_contents($specie_image_url);
         $img = json_decode($img, true);
-        $img = $img['hits'][0]['webformatURL'];
+        $img = $img['query']['pages'][0]['original']['source'];
+        echo $img['query']['pages'][0]['original']['source'];
+        
+        // echo $specie_image_url;
+        // echo json_encode($img['query']['pages'][0]['original']['source']);
+        
+        // echo '<pre>';
+      
+        // var_dump($img['query']['pages'][0]['original']['source']);
+        // echo '</pre>';
+
 
         echo "
         <section class=\"particular_animal_name\">
