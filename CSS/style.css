@@ -132,7 +132,7 @@ header #teacher_mode a, #student_mode a {
   margin-bottom: 0%;
 }
 
-/* autoslider  */
+/* autoslider  code inspired by https://www.w3schools.com/w3css/w3css_slideshow.asp */
 #article_slider_container {
   width: 100%;
   position: relative;
