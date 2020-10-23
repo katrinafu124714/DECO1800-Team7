@@ -66,4 +66,3 @@ function autoSlider() {
 
   setTimeout(autoSlider, time); // duration of slide change
 }
-

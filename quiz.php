@@ -1,93 +1,50 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
   <link rel="stylesheet" href="CSS/style.css" >
   <title>Wildlife Guide Junior - Quiz</title>
-</head> -->
+</head>
 <?php 
 $page = "game";
 include('header.php');
 ?>
 
-<main>
-<section id = "animal_type_selection">
-    <h1>Mammals</h1>
-    <section class="animal_types">
+<body>
+<section id = "quiz_section">
+  <section class="quiz_content">
+    <h1>Question1</h1>
 
-      <article class="mammals">
+    <h2>Drag the blow animal icon to the corresponding box</h2>
 
-          <figure>
-              <a href="animal_type.html">
-              <img src="images/mammal.jpg" alt="A koala image in the animal_type_selection">
-              </a>
-          </figure>
-          <p>mammal</p>
-      </article>
+    <!-- this code are refer to https://codepen.io/Coding_Journey/pen/YzKpLvE -->
+    <section class="draggable-elements">
+      <i class="fas fa-cat draggable" draggable="true" style="color: #ff6384;" id="cat"></i>
+      <i class="fas fa-dog draggable" draggable="true" style="color: #36a2eb;" id="dog"></i>
+      <i class="fas fa-dove draggable" draggable="true" style="color: #ffce56;" id="dove"></i>
+      <i class="fas fa-fish draggable" draggable="true" style="color: #9966ff;" id="fish"></i>
+      <i class="fas fa-frog draggable" draggable="true" style="color: #4bc0c0;" id="frog"></i>
 
-      <article class="birds">
-
-          <figure>
-              <a href="animal_type.html">
-              <img src="images/kangaroo.jpg" alt="A kangaroo image in the animal_type_selection">
-              </a>
-          </figure>
-          <p>Birds</p>
-      </article>
-
-      <article class="fish">
-
-        <figure>
-            <a href="animal_type.html">
-            <img src="images/lion_article.jpg" alt="A lion image in the animal_type_selection">
-            </a>
-        </figure>
-        <p>Fish</p>
-      </article>
     </section>
 
-    <section class="animal_types">
-
-      <article class="reptile">
-
-          <figure>
-              <a href="animal_type.html">
-              <img src="images/reptiles.jpg" alt="A koala image in the animal_type_selection">
-              </a>
-          </figure>
-          <p>Reptiles</p>
-      </article>
-
-      <article class="invertebrate">
-
-          <figure>
-              <a href="animal_type.html">
-              <img src="images/invertebrate.jpg" alt="A kangaroo image in the animal_type_selection">
-              </a>
-          </figure>
-          <p>Invertebrates</p>
-      </article>
-
-      <article class="amphibian">
-
-        <figure>
-            <a href="animal_type.html">
-            <img src="images/amphibian.jpg" alt="A lion image in the animal_type_selection">
-            </a>
-        </figure>
-        <p>Amphibians</p>
-      </article>
+    <!-- this code are refer to https://codepen.io/Coding_Journey/pen/YzKpLvE -->
+    <section class="droppable-elements">
+      <div class="droppable" data-draggable-id="frog"><span>Frog</span></div>
+      <div class="droppable" data-draggable-id="dove"><span>Bird</span></div>
+      <div class="droppable" data-draggable-id="cat"><span>Cat</span></div>
+      <div class="droppable" data-draggable-id="fish"><span>Fish</span></div>
+      <div class="droppable" data-draggable-id="dog"><span>Dog</span></div>
     </section>
   </section>
+</section>
 
   <?php
     include('footer.php');
   ?>
 
-<!-- <footer>
-  
-</footer> -->
+<script src="JavaScript/quiz.js"></script>
 <script src="JavaScript/main.js"></script>
-</main>
-<!-- </html> -->
+</body>
+</html>

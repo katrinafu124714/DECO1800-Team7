@@ -694,3 +694,121 @@ h7 {
   width: 500pt;
   border: #FB7813;
 }
+
+#quiz_section {
+  background-color: #bce826;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 70em;
+  display: flex;
+  align-items: center;
+}
+
+.quiz_content {
+  width: 80%;
+  height: 80%;
+  border: 5px solid black;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.quiz_content h1 {
+  text-align: left;
+  font-size: 3em;
+  padding-left: 2em;
+  padding-top: 1em;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.quiz_content img {
+  max-width: 60%;
+  padding: 2em;
+}
+
+.quiz_content h2 {
+  padding-top: 2em;
+  font-size: 2.2em;
+}
+
+/* below code are refer to the https://codepen.io/Coding_Journey/pen/YzKpLvE */
+
+.draggable-elements {
+  display: flex;
+  justify-content: center;
+  height: 8em;
+  margin-top: 5em;
+}
+
+.draggable {
+  height: 2em;
+  width: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4em;
+  margin: 0rem 0.5rem;
+  cursor: move;
+  transition: opacity 0.2s;
+}
+
+.draggable:hover {
+  opacity: 0.5;
+}
+
+.droppable-elements {
+  display: flex;
+  margin-top: 5em;
+}
+
+.droppable {
+  height: 2em;
+  width: 2em;
+  margin: 0.5em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  font-size: 3.3em;
+  font-weight: bold;
+  background-color: #fff;
+  border: 3px dashed #111;
+}
+.droppable span {
+  font-size: 1.25rem;
+  pointer-events: none;
+}
+
+/* Drag and Drop Related Styling */
+
+.droppable.droppable-hover {
+  border-width: 5px;
+  transform: scale(1.1);
+}
+
+.droppable.dropped {
+  border-style: solid;
+  color: #fff;
+}
+
+.droppable.dropped span {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.droppable.dropped i {
+  pointer-events: none;
+}
+
+.draggable.dragged {
+  user-select: none;
+  opacity: 0.1;
+  cursor: default;
+}
+
+.draggable.dragged:hover {
+  opacity: 0.1;
+}
