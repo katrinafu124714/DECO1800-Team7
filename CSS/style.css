@@ -504,8 +504,12 @@ footer section a{
 /* particular_animal */
 
 .particular_animal {
-  text-align: left;
   font-size: 2em;
+  padding: 1em;
+}
+
+.particular_animal_name {
+  /* display: flex; */
 }
 
 .particular_animal p {

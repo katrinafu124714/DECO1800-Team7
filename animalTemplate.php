@@ -47,54 +47,18 @@
     <section class = "<?php
 
     $specie = $_GET['id'];
+    $specieTitle = ucfirst($_GET['id']);
 
-    if($specie == "koala") {echo 'koala_background';} 
-    elseif ($specie == "kangaroo") {echo 'kangaroo_background';}
-    elseif ($specie == "humpback") {echo 'humpback_background';}
-    elseif ($specie == "possum") {echo 'possum_background';}
-    elseif ($specie == "Dingo") {echo 'Dingo_background';}
-    elseif ($specie == "wallaby") {echo 'wallaby_background';}
+    echo "{$specie}_background";
     ?>">
         <div class="mammal_title">
             <?php 
             $specie = $_GET['id'];
             
-            if($specie == "koala") 
-                {   echo '
-                    <section class=\"koala_backgound\">
-                    <h1> Koala </h1>
-                    </section>
-                ';}
-                elseif ($specie == "kangaroo") 
-                {   echo '
-                    <section class=\"kangaroo_backgound\">
-                    <h1> Kangaroo </h1>
-                    </section>
-                ';}
-                elseif ($specie == "humpback") 
-                {   echo '
-                    <section class=\"humpback_background\">
-                    <h1> Humpback Whale</h1>
-                    </section>
-                ';}
-                elseif ($specie == "Dingo") 
-                {   echo '
-                    <section class=\"Dingo_backgound\">
-                    <h1> Dingo </h1>
-                    </section>
-                ';}
-                elseif ($specie == "wallaby") 
-                {   echo '
-                    <section class=\"wallaby_backgound\">
-                    <h1> Wallaby </h1>
-                    </section>
-                ';}
-                elseif ($specie == "possum") 
-                {   echo '
-                    <section class=\"possum_backgound\">
-                    <h1> Possum </h1>
-                    </section>
-                ';}
+            echo "<section class=\"{$specie}_backgound\">
+                <h1> $specieTitle </h1>
+                </section>";
+
                 ?>
             <div class="horizontal_line"></div>
             <p>Mammals (from Latin mamma "breast") are vertebrate animals constituting the class Mammalia (/məˈmeɪliə/), and characterized by the presence of mammary glands which in females produce milk for feeding (nursing) their young, a neocortex (a region of the brain), fur or hair, and three middle ear bones. </p>
@@ -104,7 +68,10 @@
     <section class="particular_animal">
         <?php
             $specie = $_GET['id'];
-            getSpecieInfo($specie);
+            $info = getSpecieInfo($specie);
+
+            echo "<article class=\particular_animal_name\">$info</article>
+            <div class=\"horizontal_line\"></div>";
             ?>
     </section>
     <?php include('footer.php'); ?>

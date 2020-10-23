@@ -14,54 +14,17 @@
 
     $specie = $_GET['id'];
 
-    if($specie == "mammal") {echo 'mammal_background';} 
-    elseif ($specie == "bird") {echo 'birds_background';}
-    elseif ($specie == "fish") {echo 'fish_background';}
-    elseif ($specie == "reptiles") {echo 'reptiles_background';}
-    elseif ($specie == "invertebrates") {echo 'invertebrates_background';}
-    elseif ($specie == "amphibians") {echo 'amphibians_background';}
+    echo "{$specie}_background";
     ?>">
 
         <div class="mammal_title">
             <?php 
-            $specie = $_GET['id'];
-            
-            if($specie == "bird") 
-                {   echo '
-                    <section class=\"birds_backgound\">
-                    <h1> Birds </h1>
-                    </section>
-                ';}
-                elseif ($specie == "mammal") 
-                {   echo '
-                    <section class=\"mammal_backgound\">
-                    <h1> Mammals </h1>
-                    </section>
-                ';}
-                elseif ($specie == "fish") 
-                {   echo '
-                    <section class=\"fish_backgound\">
-                    <h1> Fishs </h1>
-                    </section>
-                ';}
-                elseif ($specie == "reptiles") 
-                {   echo '
-                    <section class=\"reptiles_backgound\">
-                    <h1> Reptiles </h1>
-                    </section>
-                ';}
-                elseif ($specie == "invertebrates") 
-                {   echo '
-                    <section class=\"invertebrates_backgound\">
-                    <h1> Invertebrates </h1>
-                    </section>
-                ';}
-                elseif ($specie == "amphibians") 
-                {   echo '
-                    <section class=\"amphibians_backgound\">
-                    <h1> Amphibians </h1>
-                    </section>
-                ';}
+            $specie =$_GET['id'];
+            $specieTitle = ucfirst($_GET['id']);
+
+            echo "<section class=\"$specie_backgound\">
+                <h1> $specieTitle </h1>
+                </section>";
                 ?>
             <div class="horizontal_line"></div>
             <p>Mammals (from Latin mamma "breast") are vertebrate animals constituting the class Mammalia (/məˈmeɪliə/), and characterized by the presence of mammary glands which in females produce milk for feeding (nursing) their young, a neocortex (a region of the brain), fur or hair, and three middle ear bones. </p>
@@ -70,97 +33,95 @@
     <section id = "animal_type_selection">
         <?php 
             $specie = $_GET['id'];
+            $select_list = null;
+
+            $mammals_list = array("koala", "kangaroo", "humpback", "possum", "Dingo", "wallaby");
+            $birds_list = array("bird", "kangaroo", "humpback", "possum", "Dingo", "wallaby");
+            $fishs_list = array("fish", "kangaroo", "humpback", "possum", "Dingo", "wallaby");
+            $reptiles_list = array("koala", "kangaroo", "humpback", "possum", "Dingo", "wallaby");
+            $amphibians_list = array("koala", "kangaroo", "humpback", "possum", "Dingo", "wallaby");
+            $invertebrate_list = array("koala", "kangaroo", "humpback", "possum", "Dingo", "wallaby");
+
+            switch ($specie) {
+                case "mammal":
+                    $select_list = $mammals_list;
+                    break;
+                case "birds":
+                    $select_list = $birds_list;
+                    break;
+                case "fish":
+                    $select_list = $fishs_list;
+                    break;
+                case "reptiles":
+                    $select_list = $reptiles_list;
+                    break;
+                case "invertebrates":
+                    $select_list = $invertebrate_list;
+                    break;
+                case "amphibians":
+                    $select_list = $amphibians_list;
+                    break;
+              }
+
             
-            if($specie == "bird") 
-                {   echo '
-                    <section id=\"animal_type_selection\">
-                    <h1> Birds </h1>
-                    </section>
-                ';}
-                elseif ($specie == "mammal") 
-                {   echo '
-                    <section id=\"animal_type_selection\">
-                    <h1> Mammals </h1>
-                    </section>
-                ';}
-                elseif ($specie == "fish") 
-                {   echo '
-                    <section id=\"animal_type_selection\">
-                    <h1> Fishs </h1>
-                    </section>
-                ';}
-                elseif ($specie == "reptiles") 
-                {   echo '
-                    <section id=\"animal_type_selection\">
-                    <h1> Reptiles </h1>
-                    </section>
-                ';}
-                elseif ($specie == "invertebrates") 
-                {   echo '
-                    <section id=\"animal_type_selection\">
-                    <h1> Invertebrates </h1>
-                    </section>
-                ';}
-                elseif ($specie == "amphibians") 
-                {   echo '
-                    <section id=\"animal_type_selection\">
-                    <h1> Amphibians </h1>
-                    </section>
-                ';}
+            echo "<section id=\"animal_type_selection\">
+                <h1> $specieTitle </h1>
+                </section>
+                
+                <section class=\"animal_types\">
+
+                <article class=\"mammals\">
+                    <a href='animalTemplate.php?id=$select_list[0]'>
+                    <div class = \"background\"></div>
+                    </a>
+                    <p>$select_list[0]</p>
+                </article>
+    
+                <article class=\"birds\">
+    
+                    <a href='animalTemplate.php?id=$select_list[1]'>
+                    <div class = \"background\"></div>
+                    </a>
+                    <p>$select_list[1]</p>
+                </article>
+    
+                <article class=\"fish\">
+    
+                    <a href='animalTemplate.php?id=$select_list[2]'>
+                    <div class = \"background\"></div>
+                    </a>
+                    <p>$select_list[2]</p>
+                </article>
+            </section>
+    
+            <section class=\"animal_types\">
+    
+                <article class=\"reptile\">
+    
+                    <a href='animalTemplate.php?id=$select_list[3]'>
+                    <div class = \"background\"></div>
+                    </a>
+                    <p>$select_list[3]</p>
+                </article>
+    
+                <article class=\"invertebrate\">
+    
+                    <a href='animalTemplate.php?id=$select_list[4]'>
+                    <div class = \"background\"></div>
+                    </a>
+                    <p>$select_list[4]</p>
+                </article>
+    
+                <article class=\"amphibian\">
+    
+                    <a href='animalTemplate.php?id=$select_list[5]'>
+                    <div class = \"background\"></div>
+                    </a>
+                    <p>$select_list[5]</p>
+                </article>
+            </section>
+        </section>
+                ";
             ?>
-
-        <section class="animal_types">
-
-            <article class="mammals">
-                <a href='animalTemplate.php?id=koala'>
-                <div class = "background"></div>
-                </a>
-                <p>Koala</p>
-            </article>
-
-            <article class="birds">
-
-                <a href='animalTemplate.php?id=kangaroo'>
-                <div class = "background"></div>
-                </a>
-                <p>Kangaroo</p>
-            </article>
-
-            <article class="fish">
-
-                <a href='animalTemplate.php?id=humpback'>
-                <div class = "background"></div>
-                </a>
-                <p>Humpback Whale</p>
-            </article>
-        </section>
-
-        <section class="animal_types">
-
-            <article class="reptile">
-
-                <a href='animalTemplate.php?id=possum'>
-                <div class = "background"></div>
-                </a>
-                <p>Possum</p>
-            </article>
-
-            <article class="invertebrate">
-
-                <a href='animalTemplate.php?id=Dingo'>
-                <div class = "background"></div>
-                </a>
-                <p>Dingo</p>
-            </article>
-
-            <article class='amphibian'>
-
-                <a href='animalTemplate.php?id=wallaby'>
-                <div class = "background"></div>
-                </a>
-                <p>Wallaby</p>
-            </article>
-        </section>
-    </section>
     <?php include('footer.php')?>
 </body>

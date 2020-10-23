@@ -17,6 +17,7 @@
 
 <!-- -----------------------------Article Slider Container----------------------------------- -->
 
+  <!-- This section code are refer to the https://www.w3schools.com/w3css/w3css_slideshow.asp -->
   <section id = "article_slider_container">
     <section id="slider">
       <div class="autoslider">
@@ -66,7 +67,7 @@
       <article class="birds">
 
           <figure>
-              <a href='animal_type_background.php?id=bird'>
+              <a href='animal_type_background.php?id=birds'>
               <img src="images/bird_article.jpg" alt="A kangaroo image in the animal_type_selection">
               </a>
           </figure>
