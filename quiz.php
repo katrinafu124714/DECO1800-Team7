@@ -21,11 +21,11 @@ include('header.php');
 
     <!-- this code are refer to https://codepen.io/Coding_Journey/pen/YzKpLvE -->
     <section class="draggable-elements">
-      <i class="fas fa-cat draggable" draggable="true" style="color: #ff6384;" id="cat"></i>
-      <i class="fas fa-dog draggable" draggable="true" style="color: #36a2eb;" id="dog"></i>
-      <i class="fas fa-dove draggable" draggable="true" style="color: #ffce56;" id="dove"></i>
-      <i class="fas fa-fish draggable" draggable="true" style="color: #9966ff;" id="fish"></i>
-      <i class="fas fa-frog draggable" draggable="true" style="color: #4bc0c0;" id="frog"></i>
+      <i class="fas fa-cat draggable" draggable="true" id="cat"></i>
+      <i class="fas fa-dog draggable" draggable="true" id="dog"></i>
+      <i class="fas fa-dove draggable" draggable="true" id="dove"></i>
+      <i class="fas fa-fish draggable" draggable="true" id="fish"></i>
+      <i class="fas fa-frog draggable" draggable="true" id="frog"></i>
 
     </section>
 

@@ -751,19 +751,39 @@ h7 {
 }
 
 .draggable {
-  height: 2em;
-  width: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 4em;
-  margin: 0rem 0.5rem;
+  font-size: 5em;
+  margin: 0em 1em;
   cursor: move;
-  transition: opacity 0.2s;
+  opacity: 0.7;
+}
+
+#cat {
+  color: #ff6384;
+}
+
+#dog {
+  color: #36a2eb;
+}
+
+#frog {
+  color: #4bc0c0
+}
+
+#fish {
+  color: #9966ff
+}
+
+#dove {
+  color: #ffce56
 }
 
 .draggable:hover {
-  opacity: 0.5;
+  opacity: 1;
+  font-size: 5.3em;
+  transition: 0.5s ease;
 }
 
 .droppable-elements {
