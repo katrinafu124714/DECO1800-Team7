@@ -36,10 +36,10 @@
             $select_list = null;
 
             $mammals_list = array("koala", "kangaroo", "humpback", "possum", "Dingo", "wallaby");
-            $birds_list = array("bird", "kangaroo", "humpback", "possum", "Dingo", "wallaby");
+            $birds_list = array("bird", "shoebill", "humpback", "possum", "Dingo", "wallaby");
             $fishs_list = array("fish", "kangaroo", "humpback", "possum", "Dingo", "wallaby");
             $reptiles_list = array("koala", "kangaroo", "humpback", "possum", "Dingo", "wallaby");
-            $amphibians_list = array("koala", "kangaroo", "humpback", "possum", "Dingo", "wallaby");
+            $amphibians_list = array("cane toad", "treefrog", "wallum%20sedgefrog", "possum", "Dingo", "wallaby");
             $invertebrate_list = array("koala", "kangaroo", "humpback", "possum", "Dingo", "wallaby");
 
             switch ($specie) {

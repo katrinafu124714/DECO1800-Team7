@@ -28,11 +28,13 @@
         $img = $img['hits'][0]['webformatURL'];
 
         echo "
+        <section class=\"particular_animal_name\">
         <h1>ConservationStatus: $ConservationStatus</h1>
         <h1>ScientificName: $ScientificName</h1>
-        <section class=\"particular_animal\">
-        <img src=$img>
         </section>
+        <div>
+        <img src=$img>
+        </div>
         ";
     }
     ?>
@@ -69,9 +71,6 @@
         <?php
             $specie = $_GET['id'];
             $info = getSpecieInfo($specie);
-
-            echo "<article class=\particular_animal_name\">$info</article>
-            <div class=\"horizontal_line\"></div>";
             ?>
     </section>
     <?php include('footer.php'); ?>
