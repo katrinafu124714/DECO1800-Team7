@@ -600,6 +600,7 @@ footer section a{
   background-size: cover;
   background-position: center;
   position: relative;
+  background-size: 100% 30em;
 }
 
 .kangaroo_background {
@@ -609,6 +610,7 @@ footer section a{
   background-size: cover;
   background-position: center;
   position: relative;
+  background-size: 100% 30em;
 }
 
 .Dingo_background {
@@ -618,6 +620,7 @@ footer section a{
   background-size: cover;
   background-position: center;
   position: relative;
+  background-size: 100% 30em;
 }
 
 .possum_background {
@@ -627,6 +630,7 @@ footer section a{
   background-size: cover;
   background-position: center;
   position: relative;
+  background-size: 100% 30em;
 }
 
 .wallaby_background {
@@ -636,15 +640,217 @@ footer section a{
   background-size: cover;
   background-position: center;
   position: relative;
+  background-size: 100% 30em;
 }
 
-.humpback_background {
+.humpback.whale_background {
   width: 100%;
   height: 30em;
   background-image: url(../images/humpback.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
+  background-size: 100% 30em;
+}
+
+.Australian.reed.warbler_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/AustralianReedWarbler.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.shoebill_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/shoebill.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.smooth.stingray_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/SmoothStingray.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.silky.shark_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/silkyShark.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Australian.bass_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/AustralianBass.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.barramundi_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/Barramundi.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.australian.smelt_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/AustralianSmelt.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.freshwater.crocodile_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/FreshwaterCrocodile.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Eastern.water.dragon_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/EasternWaterDragon.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.common.death.adder_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/common\ death\ adder.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.chameleon.gecko_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/Chameleon\ gecko.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.saw-shelled.turtle_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/Saw\ shelled\ turtle.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.cane.toad_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/cane\ toad.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.treefrog_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/tree\ frog.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.wallum.sedge.frog_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/wallumsedgefrog.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Richmond.birdwing.butterfly_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/RichmondBirdwingButterfly.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Boggmoss.snail_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/Boggess\ snail\ .jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Cairns.birdwing_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/Cairns\ birdwing.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Desert.Scorpion_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/Scorpion.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.green.snail_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/green\ snail.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
 }
 
 .mammal_title {
@@ -732,6 +938,16 @@ footer section a{
 .particular_animal_name h1 {
   margin-top: 2em;
   margin-right: 2em;
+}
+
+.api_image {
+  width: 30em;
+  height: 25em;
+}
+
+.api_image img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .particular_animal p {

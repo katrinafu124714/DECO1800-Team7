@@ -61,7 +61,7 @@
         <h1>ConservationStatus: $ConservationStatus</h1>
         <h1>ScientificName: $ScientificName</h1>
         </section>
-        <div>
+        <div class=\"api_image\">
         <img src=$img>
         </div>
         ";
