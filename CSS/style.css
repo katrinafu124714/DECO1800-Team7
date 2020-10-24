@@ -230,6 +230,9 @@ header #teacher_mode a, #student_mode a {
 .animal_types article div {
   height: 20em;
   background-size: cover;
+  background-position: center;
+  background-size: 28em 20em;
+  background-repeat: no-repeat;
 }
 
 .animal_types img {
@@ -246,6 +249,7 @@ header #teacher_mode a, #student_mode a {
   font-size: 30px;
 }
 
+
 .mammals {
   background-color: #FE7171;
 }
@@ -254,9 +258,50 @@ header #teacher_mode a, #student_mode a {
   background-image: url(../images/koala_cartoon.jpg);
 }
 
+.mammals .Australian.reed.warblerbackground {
+  background-image: url(../images/Australian\ Reed\ Warbler\ cartoon.jpg);
+}
+
+.mammals .smooth.stingraybackground {
+  background-image: url(../images/smooth\ Stringray\ cartoon.jpg);
+}
+
+.mammals .freshwater.crocodilebackground {
+  background-image: url(../images/freshwater\ crocodile\ cartoon.jpg);
+}
+
+.mammals .cane.toadbackground {
+  background-image: url(../images/cane\ toad\ cartoon\ .jpg);
+}
+
+.mammals .Richmond.birdwing.butterflybackground {
+  background-image: url(../images/Richmond\ birdwing\ butterfly\ cartoon.png);
+}
+
 .mammals .koalabackground:hover {
   background-image: url(../images/koala_article.jpg);
 }
+
+.mammals .Australian.reed.warblerbackground:hover {
+  background-image: url(../images/AustralianReedWarbler.jpg);
+}
+
+.mammals .smooth.stingraybackground:hover {
+  background-image: url(../images/SmoothStingray.jpg);
+}
+
+.mammals .freshwater.crocodilebackground:hover {
+  background-image: url(../images/FreshwaterCrocodile.jpg);
+}
+
+.mammals .cane.toadbackground:hover {
+  background-image: url(../images/cane\ toad.jpg);
+}
+
+.mammals .Richmond.birdwing.butterflybackground:hover {
+  background-image: url(../images/RichmondBirdwingButterfly.jpg);
+}
+
 
 .birds {
   background-color: #FB7813;
@@ -266,21 +311,113 @@ header #teacher_mode a, #student_mode a {
   background-image: url(../images/kangaroo_cartoon.jpg);
 }
 
+.birds .shoebillbackground{
+  background-image: url(../images/shoebill\ cartoon.jpg);
+}
+
+.birds .silky.sharkbackground{
+  background-image: url(../images/silky\ shark\ cartoon.jpg);
+}
+
+.birds .Eastern.water.dragonbackground{
+  background-image: url(../images/eastern\ water\ dragon\ cartoon.jpg);
+}
+
+.birds .wallum.sedge.frogbackground{
+  background-image: url(../images/wallum\ sedge\ frog\ cartoon.jpg);
+}
+
+.birds .Boggmoss.snailbackground{
+  background-image: url(../images/Boggess\ snail\ cartoon.jpeg);
+}
+
+.birds .treefrogbackground{
+  background-image: url(../images/tree\ frog\ cartoon.jpg);
+}
+
 .birds .kangaroobackground:hover{
   background-image: url(../images/kangaroo.jpg);
 }
 
+.birds .shoebillbackground:hover{
+  background-image: url(../images/shoebill.jpg);
+}
+
+.birds .silky.sharkbackground:hover{
+  background-image: url(../images/silkyShark.jpg);
+}
+
+.birds .Eastern.water.dragonbackground:hover {
+  background-image: url(../images/EasternWaterDragon.jpg);
+}
+
+.birds .wallum.sedge.frogbackground:hover {
+  background-image: url(../images/wallumsedgefrog.jpg);
+}
+
+.birds .Boggmoss.snailbackground:hover {
+  background-image: url(../images/Boggess\ snail\ .jpg);
+}
+
+.birds .treefrogbackground:hover{
+  background-image: url(../images/tree\ frog.jpg);
+}
+
+
+
 .fish {
   background-color: #0C9463;
+}
+
+.fish .humpback.whalebackground {
+  background-image: url(../images/humpback_cartoon.jpg);
 }
 
 .fish .humpbackbackground {
   background-image: url(../images/humpback_cartoon.jpg);
 }
 
+.fish .Australian.bassbackground {
+  background-image: url(../images/Australian\ bass\ cartoon.jpg);
+}
+
+.fish .common.death.adderbackground {
+  background-image: url(../images/common\ dead\ adder\ cartoon.jpg);
+}
+
+.fish .wallum.sedge.frogbackground {
+  background-image: url(../images/wallum\ sedge\ frog\ cartoon.jpg);
+}
+
+.fish .Cairns.birdwingbackground {
+  background-image: url(../images/Cairns\ birdwing\ cartoon.jpg);
+}
+
+
+.fish .humpback.whalebackground:hover {
+  background-image: url(../images/humpback.jpg);
+}
+
 .fish .humpbackbackground:hover {
   background-image: url(../images/humpback.jpg);
 }
+
+.fish .Australian.bassbackground:hover {
+  background-image: url(../images/AustralianBass.jpg);
+}
+
+.fish .common.death.adderbackground:hover {
+  background-image: url(../images/common\ death\ adder.jpg);
+}
+
+.fish .wallum.sedge.frogbackground:hover {
+  background-image: url(../images/wallumsedgefrog.jpg);
+}
+
+.fish .Cairns.birdwingbackground:hover {
+  background-image: url(../images/Cairns\ birdwing.jpg);
+}
+
 
 .reptile {
   background-color: #F8B400;
@@ -290,9 +427,35 @@ header #teacher_mode a, #student_mode a {
   background-image: url(../images/possum_cartoon.jpg);
 }
 
+.reptile .barramundibackground{
+  background-image: url(../images/barramundi\ cartoon.jpg);
+}
+
+.reptile .chameleon.geckobackground{
+  background-image: url(../images/chemelon\ gecko\ cartoon.jpg);
+}
+
+.reptile .Desert.Scorpionbackground{
+  background-image: url(../images/dessert\ scorpion\ cartoon.jpg);
+}
+
+
 .reptile .possumbackground:hover{
   background-image: url(../images/possum.jpg);
 }
+
+.reptile .barramundibackground:hover {
+  background-image: url(../images/Barramundi.jpg);
+}
+
+.reptile .chameleon.geckobackground:hover {
+  background-image: url(../images/Chameleon\ gecko.jpg);
+}
+
+.reptile .Desert.Scorpionbackground:hover {
+  background-image: url(../images/Scorpion.jpg);
+}
+
 
 .invertebrate {
   background-color: #2F80ED;
@@ -302,9 +465,35 @@ header #teacher_mode a, #student_mode a {
   background-image: url(../images/Dingo_cartoon.jpg);
 }
 
+.invertebrate .australian.smeltbackground{
+  background-image: url(../images/Australian\ smelt\ cartoon.jpg);
+}
+
+.invertebrate .saw-shelled.turtlebackground{
+  background-image: url(../images/saw\ shelled\ turtle\ cartoon.jpg);
+}
+
+/* .invertebrate .Dead.Leaf.Grasshopperbackground{
+  background-image: url(../images/.jpg);
+} */
+
+
 .invertebrate .Dingobackground:hover{
   background-image: url(../images/dingo.jpg);
 }
+
+.invertebrate .australian.smeltbackground:hover {
+  background-image: url(../images/AustralianSmelt.jpg);
+}
+
+.invertebrate .saw-shelled.turtlebackground:hover {
+  background-image: url(../images/Saw\ shelled\ turtle.jpg);
+}
+
+/* .invertebrate .Dead.Leaf.Grasshopperbackground:hover {
+  background-image: url(../images/gra.jpg);
+} */
+
 
 .amphibian {
   background-color: #56CCF2;
@@ -314,9 +503,19 @@ header #teacher_mode a, #student_mode a {
   background-image: url(../images/wallaby_cartoon.jpg);
 }
 
+.amphibian .green.snailbackground{
+  background-image: url(../images/green\ snail\ cartoon.jpg);
+}
+
+
 .amphibian .wallabybackground:hover{
   background-image: url(../images/wallaby.jpg);
 }
+
+.amphibian .green.snailbackground:hover {
+  background-image: url(../images/green\ snail.jpeg);
+}
+
 
 footer {
   display: flex;
