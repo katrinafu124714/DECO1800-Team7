@@ -17,7 +17,11 @@
         $data = file_get_contents($specieURL);
         $data = json_decode($data, true);
         
-        
+
+        $CommonName = $data['Species']['0']['AcceptedCommonName'];
+        $CommonName = str_replace("-"," ",$CommonName);
+  
+
         $ScientificName = $data['Species']['0']['ScientificName'];
         $ConservationStatus = $data['Species']['0']['ConservationStatus']['NCAStatus'];
 
@@ -31,19 +35,29 @@
         $img = file_get_contents($specie_image_url);
         $img = json_decode($img, true);
         $img = $img['query']['pages'][0]['original']['source'];
-        echo $img['query']['pages'][0]['original']['source'];
 
-        // echo $specie_image_url;
-        // echo json_encode($img['query']['pages'][0]['original']['source']);
-        
-        // echo '<pre>';
-      
-        // var_dump($img['query']['pages'][0]['original']['source']);
-        // echo '</pre>';
+        if ($img == null) {
+            $specie_image_url = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=".rawurlencode($ScientificName);
+            $img = json_decode(file_get_contents($specie_image_url),true)['query']['pages'][0]['original']['source'];
+            if ($img == null) {
+                $specie_image_url = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=".rawurlencode(explode(" ", $specie)[1]);
+                $img = json_decode(file_get_contents($specie_image_url),true)['query']['pages'][0]['original']['source'];
+                // echo $specie_image_url;
+                if ($img == null) {
+                    // echo "abc";
+                    $specie_image_url = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=".rawurlencode($CommonName);
+                    $img = json_decode(file_get_contents($specie_image_url),true)['query']['pages'][0]['original']['source'];
+                    echo $specie_image_url;
+                }
+            }
+            // echo $img;
+        }
+
 
 
         echo "
         <section class=\"particular_animal_name\">
+        <h1>Common Name : $CommonName </h1>
         <h1>ConservationStatus: $ConservationStatus</h1>
         <h1>ScientificName: $ScientificName</h1>
         </section>
