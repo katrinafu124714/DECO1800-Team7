@@ -234,6 +234,7 @@ header #teacher_mode a, #student_mode a {
 
 .animal_types article div {
   height: 20em;
+  width: 28em;
   background-size: cover;
   background-position: center;
   background-size: 28em 20em;
