@@ -269,7 +269,7 @@ header #teacher_mode a, #student_mode a {
 }
 
 .mammals .smooth.stingraybackground {
-  background-image: url(../images/smooth\ Stringray\ cartoon.jpg);
+  background-image: url(../images/smooth\ stingray\ cartoon.jpg);
 }
 
 .mammals .freshwater.crocodilebackground {
@@ -277,11 +277,11 @@ header #teacher_mode a, #student_mode a {
 }
 
 .mammals .cane.toadbackground {
-  background-image: url(../images/cane\ toad\ cartoon\ .jpg);
+  background-image: url(../images/cane\ toad\ cartoon.jpg);
 }
 
 .mammals .Richmond.birdwing.butterflybackground {
-  background-image: url(../images/Richmond\ birdwing\ butterfly\ cartoon.png);
+  background-image: url(../images/Richmond\ birdwing\ butterfly\ cartoon.jpg);
 }
 
 .mammals .koalabackground:hover {
@@ -334,11 +334,11 @@ header #teacher_mode a, #student_mode a {
 }
 
 .birds .Boggmoss.snailbackground{
-  background-image: url(../images/Boggess\ snail\ cartoon.jpeg);
+  background-image: url(../images/Boggmoss\ snail\ cartoon.jpg);
 }
 
 .birds .treefrogbackground{
-  background-image: url(../images/tree\ frog\ cartoon.jpg);
+  background-image: url(../images/treefrog\ cartoon.jpg);
 }
 
 .birds .kangaroobackground:hover{
@@ -388,7 +388,7 @@ header #teacher_mode a, #student_mode a {
 }
 
 .fish .common.death.adderbackground {
-  background-image: url(../images/common\ dead\ adder\ cartoon.jpg);
+  background-image: url(../images/common\ death\ adder\ cartoon.jpg);
 }
 
 .fish .wallum.sedge.frogbackground {
@@ -438,11 +438,11 @@ header #teacher_mode a, #student_mode a {
 }
 
 .reptile .chameleon.geckobackground{
-  background-image: url(../images/chemelon\ gecko\ cartoon.jpg);
+  background-image: url(../images/chameleon\ gecko\ cartoon.jpg);
 }
 
 .reptile .Desert.Scorpionbackground{
-  background-image: url(../images/dessert\ scorpion\ cartoon.jpg);
+  background-image: url(../images/desert\ scorpion\ cartoon.jpg);
 }
 
 
@@ -964,8 +964,8 @@ footer section a{
 }
 
 .api_image img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 28em;
+  max-height: 23em;
   border-radius: 100%;
 }
 
@@ -975,8 +975,8 @@ footer section a{
 }
 
 .api_image_cartoon img{
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 28em;
+  max-height: 23em;
   border-radius: 100%;
 }
 
