@@ -53,17 +53,28 @@
             // echo $img;
         }
 
-
+        // this regex method is refer to https://stackoverflow.com/questions/8175655/preg-replace-all-spaces/48081908
+        $cartoon_image = preg_replace('/\s+/', '%20', $specie);
 
         echo "
-        <section class=\"particular_animal_name\">
-        <h1>Common Name : $CommonName </h1>
-        <h1>ConservationStatus: $ConservationStatus</h1>
-        <h1>ScientificName: $ScientificName</h1>
+        <section class=\"particular_animal_section_one\">
+            <div class=\"particular_animal_name\">
+                <h1>Common Name : $CommonName </h1>
+                <h1>ConservationStatus: $ConservationStatus</h1>
+                <h1>ScientificName: $ScientificName</h1>
+            </div>
+            <div class=\"api_image\">
+            <img src=$img>
+            </div>
         </section>
-        <div class=\"api_image\">
-        <img src=$img>
-        </div>
+        <div class=\"section_breaker\"></div>
+        <section class=\"particular_animal_section_two\">
+            <div class=\"api_image_cartoon\">
+                <img src=images/{$cartoon_image}%20cartoon.jpg>
+            </div>
+            <div class=\"particular_animal_detail\">
+            </div>
+        </section>
         ";
     }
     ?>
