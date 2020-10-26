@@ -1006,6 +1006,30 @@ footer section a{
   border-top: 6px solid #bce826;
 }
 
+.particular_animal .view_on_map_button {
+  margin-top: 4em;
+}
+
+.particular_animal .view_on_map_button a{
+  text-decoration: none;
+  color: #111;
+  width: 10em;
+  height: 1.5em;
+  font-weight: bold;
+  background-color: burlywood;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0.5em;
+  margin-top: 5em;
+}
+
+.particular_animal .view_on_map_button a:hover{
+  background-color: #bce826;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+
 /* teacher_mode_page */
 
 .input_out {

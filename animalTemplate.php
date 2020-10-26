@@ -78,6 +78,9 @@
             <div class=\"particular_animal_detail\">
             <h1>Family Common Name: $FamilyCommonName</h1>
             <h1>Endemicity: $Edemecity </h1>
+                <div class =\"view_on_map_button\">
+                <a href='explore.php?id=$CommonName'>View on map</a>
+                </div>
             </div>
         </section>
         ";
