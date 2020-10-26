@@ -32,9 +32,19 @@
 
   <section id = "videos">
     <div class="video_part_one">
+      <!-- video link https://www.youtube.com/watch?v=oI3ADcDH0Uc -->
+      <iframe src="https://www.youtube.com/embed/oI3ADcDH0Uc" frameborder="0" allowfullscreen></iframe>
+
+      <!-- video link https://www.youtube.com/watch?v=8BbZTCdB2X4 -->
+      <iframe src="https://www.youtube.com/embed/8BbZTCdB2X4" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="video_part_two">
+      <!-- video link https://www.youtube.com/watch?v=bgiPTUy2RqI -->
+      <iframe src="https://www.youtube.com/embed/bgiPTUy2RqI" frameborder="0" allowfullscreen></iframe>
+      
+      <!-- video link https://www.youtube.com/watch?v=U7zARByAu1c -->
+      <iframe src="https://www.youtube.com/embed/U7zARByAu1c" frameborder="0" allowfullscreen></iframe>
     </div>
   </section>
 </section>

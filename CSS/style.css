@@ -221,14 +221,20 @@ header #teacher_mode a, #student_mode a {
 
 .animal_types article{
   width: 28em;
-  height: 20%;
+  height: 23em;
   justify-content: center;
   margin: 3em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.animal_types article figure{
+  height: 19em;
+  width: 28em;
+}
+
 .animal_types article div {
   height: 20em;
+  width: 28em;
   background-size: cover;
   background-position: center;
   background-size: 28em 20em;
@@ -236,8 +242,8 @@ header #teacher_mode a, #student_mode a {
 }
 
 .animal_types img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 28em;
+  height: 19em;
   margin: 0;
 }
 
@@ -255,7 +261,7 @@ header #teacher_mode a, #student_mode a {
 }
 
 .mammals .koalabackground {
-  background-image: url(../images/koala_cartoon.jpg);
+  background-image: url(../images/koala\ cartoon.jpg);
 }
 
 .mammals .Australian.reed.warblerbackground {
@@ -263,7 +269,7 @@ header #teacher_mode a, #student_mode a {
 }
 
 .mammals .smooth.stingraybackground {
-  background-image: url(../images/smooth\ Stringray\ cartoon.jpg);
+  background-image: url(../images/smooth\ stingray\ cartoon.jpg);
 }
 
 .mammals .freshwater.crocodilebackground {
@@ -271,11 +277,11 @@ header #teacher_mode a, #student_mode a {
 }
 
 .mammals .cane.toadbackground {
-  background-image: url(../images/cane\ toad\ cartoon\ .jpg);
+  background-image: url(../images/cane\ toad\ cartoon.jpg);
 }
 
 .mammals .Richmond.birdwing.butterflybackground {
-  background-image: url(../images/Richmond\ birdwing\ butterfly\ cartoon.png);
+  background-image: url(../images/Richmond\ birdwing\ butterfly\ cartoon.jpg);
 }
 
 .mammals .koalabackground:hover {
@@ -308,7 +314,7 @@ header #teacher_mode a, #student_mode a {
 }
 
 .birds .kangaroobackground{
-  background-image: url(../images/kangaroo_cartoon.jpg);
+  background-image: url(../images/kangaroo\ cartoon.jpg);
 }
 
 .birds .shoebillbackground{
@@ -328,11 +334,11 @@ header #teacher_mode a, #student_mode a {
 }
 
 .birds .Boggmoss.snailbackground{
-  background-image: url(../images/Boggess\ snail\ cartoon.jpeg);
+  background-image: url(../images/Boggmoss\ snail\ cartoon.jpg);
 }
 
 .birds .treefrogbackground{
-  background-image: url(../images/tree\ frog\ cartoon.jpg);
+  background-image: url(../images/treefrog\ cartoon.jpg);
 }
 
 .birds .kangaroobackground:hover{
@@ -370,7 +376,7 @@ header #teacher_mode a, #student_mode a {
 }
 
 .fish .humpback.whalebackground {
-  background-image: url(../images/humpback_cartoon.jpg);
+  background-image: url(../images/humpback\ whale\ cartoon.jpg);
 }
 
 .fish .humpbackbackground {
@@ -382,7 +388,7 @@ header #teacher_mode a, #student_mode a {
 }
 
 .fish .common.death.adderbackground {
-  background-image: url(../images/common\ dead\ adder\ cartoon.jpg);
+  background-image: url(../images/common\ death\ adder\ cartoon.jpg);
 }
 
 .fish .wallum.sedge.frogbackground {
@@ -424,7 +430,7 @@ header #teacher_mode a, #student_mode a {
 }
 
 .reptile .possumbackground{
-  background-image: url(../images/possum_cartoon.jpg);
+  background-image: url(../images/possum\ cartoon.jpg);
 }
 
 .reptile .barramundibackground{
@@ -432,11 +438,11 @@ header #teacher_mode a, #student_mode a {
 }
 
 .reptile .chameleon.geckobackground{
-  background-image: url(../images/chemelon\ gecko\ cartoon.jpg);
+  background-image: url(../images/chameleon\ gecko\ cartoon.jpg);
 }
 
 .reptile .Desert.Scorpionbackground{
-  background-image: url(../images/dessert\ scorpion\ cartoon.jpg);
+  background-image: url(../images/desert\ scorpion\ cartoon.jpg);
 }
 
 
@@ -462,7 +468,7 @@ header #teacher_mode a, #student_mode a {
 }
 
 .invertebrate .Dingobackground{
-  background-image: url(../images/Dingo_cartoon.jpg);
+  background-image: url(../images/Dingo\ cartoon.jpg);
 }
 
 .invertebrate .australian.smeltbackground{
@@ -470,7 +476,7 @@ header #teacher_mode a, #student_mode a {
 }
 
 .invertebrate .saw-shelled.turtlebackground{
-  background-image: url(../images/saw\ shelled\ turtle\ cartoon.jpg);
+  background-image: url(../images/saw-shelled\ turtle\ cartoon.jpg);
 }
 
 /* .invertebrate .Dead.Leaf.Grasshopperbackground{
@@ -500,7 +506,7 @@ header #teacher_mode a, #student_mode a {
 }
 
 .amphibian .wallabybackground{
-  background-image: url(../images/wallaby_cartoon.jpg);
+  background-image: url(../images/wallaby\ cartoon.jpg);
 }
 
 .amphibian .green.snailbackground{
@@ -908,21 +914,21 @@ footer section a{
 
 #videos {
   text-align: center;
+  justify-content: center;
+}
+
+.video_part_one, .video_part_two {
   display: flex;
-  justify-content: center;
-}
-
-#videos div {
   padding: 3em;
+  justify-content: center;
+  text-align: center;
 }
 
-#videos .video_part_one, .video_part_two{
-  width: 28em;
-  height: 18em;
-  background-color: lightskyblue;
-  justify-content: center;
-  margin: 6em;
-  margin-top: 3em;
+#videos iframe {
+  width: 40em;
+  height: 25em;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 /* particular_animal */
@@ -930,9 +936,21 @@ footer section a{
 .particular_animal {
   font-size: 2em;
   padding: 1em;
-  display: flex;
   text-align: center;
   justify-content: center;
+  align-items: center;
+  background-image: url(../images/detail_background.jpg);
+  background-size: cover;
+}
+
+.particular_animal_section_one {
+  display: flex;
+  margin-top: 2em;
+}
+
+.particular_animal_name {
+  margin-top: 2em;
+  width: 50%;
 }
 
 .particular_animal_name h1 {
@@ -941,17 +959,42 @@ footer section a{
 }
 
 .api_image {
-  width: 30em;
+  width: 50%;
   height: 25em;
 }
 
 .api_image img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 28em;
+  max-height: 23em;
+  border-radius: 100%;
+}
+
+.api_image_cartoon {
+  width: 50%;
+  height: 25em;
+}
+
+.api_image_cartoon img{
+  max-width: 28em;
+  max-height: 23em;
+  border-radius: 100%;
+}
+
+.particular_animal_detail {
+  width: 50%;
 }
 
 .particular_animal p {
   padding: 0.5em;
+}
+
+.section_breaker {
+  width: 100%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  justify-content: center;
+  align-items: center;
+  border-top: 6px solid #bce826;
 }
 
 /* teacher_mode_page */
