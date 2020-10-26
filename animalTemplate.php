@@ -65,8 +65,6 @@
             <h1>Common Name : $CommonName </h1>
             <h1>ConservationStatus: $ConservationStatus</h1>
             <h1>ScientificName: $ScientificName</h1>
-            <h1>Family Common Name: $FamilyCommonName</h1>
-            <h1>Endemicity: $Edemecity </h1>
             </div>
             <div class=\"api_image\">
             <img src=$img>
@@ -78,6 +76,8 @@
                 <img src=images/{$cartoon_image}%20cartoon.jpg>
             </div>
             <div class=\"particular_animal_detail\">
+            <h1>Family Common Name: $FamilyCommonName</h1>
+            <h1>Endemicity: $Edemecity </h1>
             </div>
         </section>
         ";
