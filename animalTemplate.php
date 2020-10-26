@@ -20,6 +20,8 @@
 
         $CommonName = $data['Species']['0']['AcceptedCommonName'];
         $CommonName = str_replace("-"," ",$CommonName);
+        $FamilyCommonName = $data['Species']['0']['FamilyCommonName'];
+        $Edemecity = $data['Species']['0']['Endemicity'];
   
 
         $ScientificName = $data['Species']['0']['ScientificName'];
@@ -60,6 +62,8 @@
         <h1>Common Name : $CommonName </h1>
         <h1>ConservationStatus: $ConservationStatus</h1>
         <h1>ScientificName: $ScientificName</h1>
+        <h1>Family Common Name: $FamilyCommonName</h1>
+        <h1>Endemicity: $Edemecity </h1?>
         </section>
         <div class=\"api_image\">
         <img src=$img>
