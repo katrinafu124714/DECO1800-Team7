@@ -69,7 +69,7 @@
             $select_list = null;
 
             $mammals_list = array("koala", "kangaroo", "humpback whale", "possum", "Dingo", "wallaby");
-            $birds_list = array("Australian reed warbler", "shoebill", "humpback", "possum", "Dingo", "wallaby");
+            $birds_list = array("Australian reed warbler", "stork", "green catbird", "sooty shearwater", "golden-headed cisticola", "masked woodswallow");
             $fishs_list = array("smooth stingray", "silky shark", "Australian bass", "barramundi", "australian smelt", "wallaby");
             $reptiles_list = array("freshwater crocodile", "Eastern water dragon", "common death adder", "chameleon gecko", "saw-shelled turtle", "wallaby");
             $amphibians_list = array("cane toad", "treefrog", "wallum sedge frog", "possum", "Dingo", "wallaby");
