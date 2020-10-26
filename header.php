@@ -44,7 +44,7 @@
           <a href="index.php">Learn</a>
         </li>
         <li class = "<?php if($page == "game"){echo 'current';} ?>">
-          <a href = "quiz.php">Game</a>
+          <a href = "quiz.php">Quiz</a>
         </li>
         <li class="koala">
           <img src="images/koala.png" alt="a Koala image">
