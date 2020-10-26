@@ -19,15 +19,48 @@
 
         <div class="mammal_title">
             <?php 
+
             $specie =$_GET['id'];
             $specieTitle = ucfirst($_GET['id']);
+            $select_description = null;
+
+            $mammals_description = "Mammals are among the most adaptable animals on the planet. They are found on every continent and in every ocean, and range in size from tiny bumblebee bats to enormous blue whales. Mammals as a group use every possible form of locomotion. Terrestrial species walk, run, jump, climb, hop, swing, dig, and burrow. Aquatic ones swim, shuffle, and dive.";
+            $birds_description = "Birds are vertebrate animals adapted for flight. Many can also run, jump, swim, and dive. Some, like penguins, have lost the ability to fly but retained their wings. Birds are found worldwide and in all habitats. The largest is the nine-foot-tall ostrich. The smallest is the two-inch-long bee hummingbird.";
+            $fish_description = "All fish share two traits: they live in water and they have a backbone—they are vertebrates.Apart from these similarities, however, many of the species in this group differ markedly from one another. Some species, such as the weedy sea dragon, are so bizarre they seem almost unreal.";
+            $invertebrates_description = "Invertebrates are animals without a backbone or bony skeleton.They range in size from microscopic mites and almost invisible flies to giant squid with soccer-ball-size eyes.";
+            $amphibians_description = "Amphibians are small vertebrates that need water, or a moist environment, to survive.The species in this group include frogs, toads, salamanders, and newts. All can breathe and absorb water through their very thin skin.";
+            $reptiles_description = "Reptiles are air-breathing vertebrates covered in special skin made up of scales, bony plates, or a combination of both.They include crocodiles, snakes, lizards, turtles, and tor- toises. All regularly shed the outer layer of their skin. Their metabolism depends on the temperature of their environment.";
+
+            switch ($specie) {
+                case "mammal":
+                    $select_description = $mammals_description;
+                    break;
+                case "birds":
+                    $select_description = $birds_description;
+                    break;
+                case "fish":
+                    $select_description = $fish_description;
+                    break;
+                case "reptiles":
+                    $select_description = $reptiles_description;
+                    break;
+                case "invertebrates":
+                    $select_description = $invertebrates_description;
+                    break;
+                case "amphibians":
+                    $select_description = $amphibians_description;
+                    break;
+              }
 
             echo "<section class=\"$specie_backgound\">
                 <h1> $specieTitle </h1>
-                </section>";
+                </section>
+                <div class=\"horizontal_line\"></div>
+                <p>$select_description</p>
+                ";
                 ?>
-            <div class="horizontal_line"></div>
-            <p>Mammals (from Latin mamma "breast") are vertebrate animals constituting the class Mammalia (/məˈmeɪliə/), and characterized by the presence of mammary glands which in females produce milk for feeding (nursing) their young, a neocortex (a region of the brain), fur or hair, and three middle ear bones. </p>
+            <!-- <div class="horizontal_line"></div>
+            <p>Mammals (from Latin mamma "breast") are vertebrate animals constituting the class Mammalia (/məˈmeɪliə/), and characterized by the presence of mammary glands which in females produce milk for feeding (nursing) their young, a neocortex (a region of the brain), fur or hair, and three middle ear bones. </p> -->
         </div>
     </section>
     <section id = "animal_type_selection">

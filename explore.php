@@ -28,15 +28,28 @@
             ">
           Search Animals
          </h3>
-        <input type="text" id="search" placeholder="Enter Species Name" style="
-          width: 100%;
-          height: 30px;
-          border-radius: 5px;
-          border: 5px solid #bce826;
-          padding: 10px;
-          font-size: 20px;
-          position: relative;
-          ">
+         <?php $search_animal_id = $_GET['id'];
+          if ($search_animal_id != null) {
+            echo "<input type=text id=search value =\"$search_animal_id\" style=\"
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            border: 5px solid #bce826;
+            padding: 10px;
+            font-size: 20px;
+            position: relative;
+            \">";
+          } else {
+            echo "<input type=text id=search placeholder=Enter Species Name style=\"
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            border: 5px solid #bce826;
+            padding: 10px;
+            font-size: 20px;
+            position: relative\">";
+          };
+          ?>
         <button onclick="handleInput()" id="searchButton" style="
           border-radius: 5px;
           background-color: #bce826;
