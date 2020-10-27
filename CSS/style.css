@@ -23,35 +23,17 @@ header {
   display: flex;
   width: 100%;
   padding: 1em;
-  height: 6em;
+  height: 10em;
+  background-image: url("../images/learn_page_background_top.jpg");
+  background-size: cover;
 }
 
-header #logo a {
+header #logo img {
   height: 100%;
-  font-size: 2em;
-  color: black;
-  text-decoration: none;
-}
-
-header #searching_engine {
-  position: absolute;
-  right: 20%;
-}
-
-header #searching_engine fieldset {
-  padding-top: 1em;
-  border: none;
-}
-
-header #searching_engine input {
   width: 100%;
-  height: 50px;
-  font-size: 30px;
-  border: 3px solid black;
-  padding-left: 0.3em;
 }
 
-header #teacher_mode {
+header #teacher_mode, #student_mode {
   background: #bce826;
   opacity: 1;
   position: absolute;
@@ -61,34 +43,38 @@ header #teacher_mode {
   border-radius: 1em;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  padding: 1em;
+  width: 13%;
+  height: 3em;
+  text-align: center;
 }
 
-header #teacher_mode a {
+header #teacher_mode a, #student_mode a {
   color: #158467;
   font-family: Roboto Mono;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 2em;
   text-decoration: none;
 }
 
 /* navigation */
 #nav {
   width: 100%;
-  position: absolute;
+  position: relative;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   padding-top: 8em;
-  height: 6em;
+  height: 5.5em;
   z-index: 1;
+  text-align: center;
+  background-image: url("../images/learn_page_background_top.jpg");
+  background-size: cover;
 }
 
 #navigation {
   width: 100%;
   background: #bce826;
   opacity: 1;
-  position: absolute;
   border: 5px solid black;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -106,11 +92,17 @@ header #teacher_mode a {
 
 #navigation li {
   list-style: none;
-  padding: 0.5em 7%;
+  width: 25%;
+  padding: 0.7em;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   display: block;
+  text-align: center;
+}
+
+#navigation li.current a {
+  color: white;
 }
 
 #navigation a {
@@ -130,19 +122,38 @@ header #teacher_mode a {
   bottom: 0;
   text-align: center;
   padding: 0em 0em;
+  width: 10%;
 }
 
 #navigation .koala img {
-  height: 200px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
 
-/* autoslider  */
+/* autoslider  code inspired by https://www.w3schools.com/w3css/w3css_slideshow.asp */
 #article_slider_container {
   width: 100%;
   position: relative;
-  padding-top: 13em;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+#article_slider_container #slider {
+  padding: 12em;
+  background-image: url("../images/learn_page_background.jpg");
+  background-size: cover;
+}
+
+#article_slider_container .Unique_fact {
+  color: white;
+  font-size: 6em;
+  position: absolute;
+  top: 40%;
+  right: 60%;
+  font-weight: bold;
+  width: 20%;
 }
 
 #article_slider_container div {
@@ -153,6 +164,7 @@ header #teacher_mode a {
 #article_slider_container div img {
   max-width: 100%;
   max-height: 100%;
+  border-radius: 5px;
 }
 
 #article_slider_container .autoslider {
@@ -163,21 +175,1178 @@ header #teacher_mode a {
   animation-duration: 5s;
 }
 
-@-webkit-keyframes transparent {
-  from {
-    opacity: 0.6;
-  }
-  to {
-    opacity: 1;
-  }
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 0.5em;
+  color: white;
+  font-weight: bold;
+  font-size: 5em;
+  transition: 0.6s ease;
+  user-select: none;
+  border-radius: 10px;
 }
 
-@keyframes transparent {
-  from {
-    opacity: 0.6;
-  }
-  to {
-    opacity: 1;
-  }
+.next {
+  right: 0;
 }
-/*# sourceMappingURL=style.css.map */
+
+.prev:hover, .next:hover {
+  background-color: lightgray;
+}
+
+/* animal types section */
+
+#animal_type_selection {
+  text-align: center;
+  background-color: #bce826;
+}
+
+#animal_type_selection h1 {
+  padding: 1em;
+  font-size: 5em;
+}
+
+#animal_type_selection h2 {
+  color: white;
+}
+
+.animal_types {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.animal_types article{
+  width: 28em;
+  height: 23em;
+  justify-content: center;
+  margin: 3em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.animal_types article figure{
+  height: 19em;
+  width: 28em;
+}
+
+.animal_types article div {
+  height: 20em;
+  width: 28em;
+  background-size: cover;
+  background-position: center;
+  background-size: 28em 20em;
+  background-repeat: no-repeat;
+}
+
+.animal_types img {
+  width: 28em;
+  height: 19em;
+  margin: 0;
+}
+
+.animal_types p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 0.3em;
+  font-size: 30px;
+}
+
+
+.mammals {
+  background-color: #FE7171;
+}
+
+.mammals .koalabackground {
+  background-image: url(../images/koala\ cartoon.jpg);
+}
+
+.mammals .Australian.reed.warblerbackground {
+  background-image: url(../images/Australian\ Reed\ Warbler\ cartoon.jpg);
+}
+
+.mammals .smooth.stingraybackground {
+  background-image: url(../images/smooth\ stingray\ cartoon.jpg);
+}
+
+.mammals .freshwater.crocodilebackground {
+  background-image: url(../images/freshwater\ crocodile\ cartoon.jpg);
+}
+
+.mammals .cane.toadbackground {
+  background-image: url(../images/cane\ toad\ cartoon.jpg);
+}
+
+.mammals .Richmond.birdwing.butterflybackground {
+  background-image: url(../images/Richmond\ birdwing\ butterfly\ cartoon.jpg);
+}
+
+.mammals .koalabackground:hover {
+  background-image: url(../images/koala_article.jpg);
+}
+
+.mammals .Australian.reed.warblerbackground:hover {
+  background-image: url(../images/AustralianReedWarbler.jpg);
+}
+
+.mammals .smooth.stingraybackground:hover {
+  background-image: url(../images/SmoothStingray.jpg);
+}
+
+.mammals .freshwater.crocodilebackground:hover {
+  background-image: url(../images/FreshwaterCrocodile.jpg);
+}
+
+.mammals .cane.toadbackground:hover {
+  background-image: url(../images/cane\ toad.jpg);
+}
+
+.mammals .Richmond.birdwing.butterflybackground:hover {
+  background-image: url(../images/RichmondBirdwingButterfly.jpg);
+}
+
+
+.birds {
+  background-color: #FB7813;
+}
+
+.birds .kangaroobackground{
+  background-image: url(../images/kangaroo\ cartoon.jpg);
+}
+
+.birds .shoebillbackground{
+  background-image: url(../images/shoebill\ cartoon.jpg);
+}
+
+.birds .silky.sharkbackground{
+  background-image: url(../images/silky\ shark\ cartoon.jpg);
+}
+
+.birds .Eastern.water.dragonbackground{
+  background-image: url(../images/eastern\ water\ dragon\ cartoon.jpg);
+}
+
+.birds .wallum.sedge.frogbackground{
+  background-image: url(../images/wallum\ sedge\ frog\ cartoon.jpg);
+}
+
+.birds .Boggmoss.snailbackground{
+  background-image: url(../images/Boggmoss\ snail\ cartoon.jpg);
+}
+
+.birds .treefrogbackground{
+  background-image: url(../images/treefrog\ cartoon.jpg);
+}
+
+.birds .kangaroobackground:hover{
+  background-image: url(../images/kangaroo.jpg);
+}
+
+.birds .shoebillbackground:hover{
+  background-image: url(../images/shoebill.jpg);
+}
+
+.birds .silky.sharkbackground:hover{
+  background-image: url(../images/silkyShark.jpg);
+}
+
+.birds .Eastern.water.dragonbackground:hover {
+  background-image: url(../images/EasternWaterDragon.jpg);
+}
+
+.birds .wallum.sedge.frogbackground:hover {
+  background-image: url(../images/wallumsedgefrog.jpg);
+}
+
+.birds .Boggmoss.snailbackground:hover {
+  background-image: url(../images/Boggess\ snail\ .jpg);
+}
+
+.birds .treefrogbackground:hover{
+  background-image: url(../images/tree\ frog.jpg);
+}
+
+
+
+.fish {
+  background-color: #0C9463;
+}
+
+.fish .humpback.whalebackground {
+  background-image: url(../images/humpback\ whale\ cartoon.jpg);
+}
+
+.fish .humpbackbackground {
+  background-image: url(../images/humpback_cartoon.jpg);
+}
+
+.fish .Australian.bassbackground {
+  background-image: url(../images/Australian\ bass\ cartoon.jpg);
+}
+
+.fish .common.death.adderbackground {
+  background-image: url(../images/common\ death\ adder\ cartoon.jpg);
+}
+
+.fish .wallum.sedge.frogbackground {
+  background-image: url(../images/wallum\ sedge\ frog\ cartoon.jpg);
+}
+
+.fish .Cairns.birdwingbackground {
+  background-image: url(../images/Cairns\ birdwing\ cartoon.jpg);
+}
+
+
+.fish .humpback.whalebackground:hover {
+  background-image: url(../images/humpback.jpg);
+}
+
+.fish .humpbackbackground:hover {
+  background-image: url(../images/humpback.jpg);
+}
+
+.fish .Australian.bassbackground:hover {
+  background-image: url(../images/AustralianBass.jpg);
+}
+
+.fish .common.death.adderbackground:hover {
+  background-image: url(../images/common\ death\ adder.jpg);
+}
+
+.fish .wallum.sedge.frogbackground:hover {
+  background-image: url(../images/wallumsedgefrog.jpg);
+}
+
+.fish .Cairns.birdwingbackground:hover {
+  background-image: url(../images/Cairns\ birdwing.jpg);
+}
+
+
+.reptile {
+  background-color: #F8B400;
+}
+
+.reptile .possumbackground{
+  background-image: url(../images/possum\ cartoon.jpg);
+}
+
+.reptile .barramundibackground{
+  background-image: url(../images/barramundi\ cartoon.jpg);
+}
+
+.reptile .chameleon.geckobackground{
+  background-image: url(../images/chameleon\ gecko\ cartoon.jpg);
+}
+
+.reptile .Desert.Scorpionbackground{
+  background-image: url(../images/desert\ scorpion\ cartoon.jpg);
+}
+
+
+.reptile .possumbackground:hover{
+  background-image: url(../images/possum.jpg);
+}
+
+.reptile .barramundibackground:hover {
+  background-image: url(../images/Barramundi.jpg);
+}
+
+.reptile .chameleon.geckobackground:hover {
+  background-image: url(../images/Chameleon\ gecko.jpg);
+}
+
+.reptile .Desert.Scorpionbackground:hover {
+  background-image: url(../images/Scorpion.jpg);
+}
+
+
+.invertebrate {
+  background-color: #2F80ED;
+}
+
+.invertebrate .Dingobackground{
+  background-image: url(../images/Dingo\ cartoon.jpg);
+}
+
+.invertebrate .australian.smeltbackground{
+  background-image: url(../images/Australian\ smelt\ cartoon.jpg);
+}
+
+.invertebrate .saw-shelled.turtlebackground{
+  background-image: url(../images/saw-shelled\ turtle\ cartoon.jpg);
+}
+
+/* .invertebrate .Dead.Leaf.Grasshopperbackground{
+  background-image: url(../images/.jpg);
+} */
+
+
+.invertebrate .Dingobackground:hover{
+  background-image: url(../images/dingo.jpg);
+}
+
+.invertebrate .australian.smeltbackground:hover {
+  background-image: url(../images/AustralianSmelt.jpg);
+}
+
+.invertebrate .saw-shelled.turtlebackground:hover {
+  background-image: url(../images/Saw\ shelled\ turtle.jpg);
+}
+
+/* .invertebrate .Dead.Leaf.Grasshopperbackground:hover {
+  background-image: url(../images/gra.jpg);
+} */
+
+
+.amphibian {
+  background-color: #56CCF2;
+}
+
+.amphibian .wallabybackground{
+  background-image: url(../images/wallaby\ cartoon.jpg);
+}
+
+.amphibian .green.snailbackground{
+  background-image: url(../images/green\ snail\ cartoon.jpg);
+}
+
+
+.amphibian .wallabybackground:hover{
+  background-image: url(../images/wallaby.jpg);
+}
+
+.amphibian .green.snailbackground:hover {
+  background-image: url(../images/green\ snail.jpeg);
+}
+
+
+footer {
+  display: flex;
+  background-image: url(../images/learn_page_background_top.jpg);
+  background-size: cover;
+}
+
+footer section {
+  padding: 3em;
+  padding-left: 13em;
+  display: grid;
+}
+
+footer section a{
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  height: 2em;
+}
+
+/* animal_types_page */
+
+.mammal_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/mammal_background.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.birds_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/bird_article.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.fish_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/fish.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.reptiles_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/reptiles.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.invertebrates_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/invertebrate.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.amphibians_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/amphibian.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.koala_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/koala_article.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.kangaroo_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/kangaroo.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Dingo_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/dingo.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.possum_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/possum.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.wallaby_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/wallaby.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.humpback.whale_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/humpback.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Australian.reed.warbler_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/AustralianReedWarbler.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.shoebill_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/shoebill.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.smooth.stingray_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/SmoothStingray.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.silky.shark_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/silkyShark.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Australian.bass_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/AustralianBass.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.barramundi_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/Barramundi.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.australian.smelt_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/AustralianSmelt.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.freshwater.crocodile_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/FreshwaterCrocodile.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Eastern.water.dragon_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/EasternWaterDragon.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.common.death.adder_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/common\ death\ adder.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.chameleon.gecko_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/Chameleon\ gecko.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.saw-shelled.turtle_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/Saw\ shelled\ turtle.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.cane.toad_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/cane\ toad.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.treefrog_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/tree\ frog.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.wallum.sedge.frog_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/wallumsedgefrog.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Richmond.birdwing.butterfly_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/RichmondBirdwingButterfly.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Boggmoss.snail_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/Boggess\ snail\ .jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Cairns.birdwing_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/Cairns\ birdwing.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.Desert.Scorpion_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/Scorpion.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.green.snail_background {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/green\ snail.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-size: 100% 30em;
+}
+
+.mammal_title {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-85%, 0%);
+  color: white;
+}
+
+.horizontal_line {
+  border-top: 6px solid #bce826;
+  width: 35%;
+  margin-bottom: 1.5em;
+}
+
+.mammal_title h1 {
+  font-size: 4em;
+}
+
+
+.mammal_background div img {
+  max-width: 100%;
+}
+
+/* video page */
+
+#top_video {
+  width: 100%;
+
+  padding-top: 12em;
+  text-align: center;
+  background-image: url("../images/learn_page_background.jpg");
+}
+
+#top_video .demo_video {
+  padding: 5em;
+}
+
+#top_video .demo_video iframe{
+  width: 75em;
+  height: 50em;
+}
+
+#video_section {
+  text-align: center;
+  background-color: #bce826;
+}
+
+#video_section h1 {
+  padding: 1em;
+  font-size: 5em;
+}
+
+#videos {
+  text-align: center;
+  justify-content: center;
+}
+
+.video_part_one, .video_part_two {
+  display: flex;
+  padding: 3em;
+  justify-content: center;
+  text-align: center;
+}
+
+#videos iframe {
+  width: 40em;
+  height: 25em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+/* particular_animal */
+
+.particular_animal {
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/detail_background.jpg);
+  background-size: cover;
+}
+
+.particular_animal_section_one {
+  display: flex;
+  margin-top: 2em;
+}
+
+.particular_animal_section_two {
+  display: flex;
+}
+
+.particular_animal_name {
+  margin-top: 2em;
+  width: 50%;
+}
+
+.particular_animal_name h1 {
+  margin-top: 2em;
+  margin-right: 2em;
+}
+
+.particular_animal_detail h1 {
+  margin-top: 4em;
+  margin-right: 2em;
+}
+
+.api_image {
+  width: 50%;
+  height: 25em;
+}
+
+.api_image img {
+  max-width: 28em;
+  max-height: 23em;
+  border-radius: 100%;
+}
+
+.api_image_cartoon {
+  width: 50%;
+  height: 25em;
+}
+
+.api_image_cartoon img{
+  max-width: 28em;
+  max-height: 23em;
+  border-radius: 100%;
+}
+
+.particular_animal_detail {
+  width: 50%;
+}
+
+.particular_animal p {
+  padding: 0.5em;
+}
+
+.section_breaker {
+  width: 100%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  justify-content: center;
+  align-items: center;
+  border-top: 6px solid #bce826;
+}
+
+.particular_animal .view_on_map_button {
+  margin-top: 4em;
+}
+
+.particular_animal .view_on_map_button a{
+  text-decoration: none;
+  color: #111;
+  width: 10em;
+  height: 1.5em;
+  font-weight: bold;
+  background-color: burlywood;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0.5em;
+  margin-top: 5em;
+}
+
+.particular_animal .view_on_map_button a:hover{
+  background-color: #bce826;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+
+/* teacher_mode_page */
+
+.input_out {
+  float:right;
+  padding-right: 5%;
+  padding-top: 2em;
+}
+
+.input_out input[type=text] {
+  padding: 7px;
+  margin-top: 8px;
+  font-size: 18px;    
+}
+
+.input_out button {
+  padding: 7px 11px;
+  margin-top: 9px;
+  margin-right: 17px;
+  background: #ddd;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.topic_of_top_section{
+  padding-bottom: 5em;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+h5 {
+  font-family: rowdies;
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+.underline {
+  border-bottom: 8px solid orange;
+  padding-bottom: 10px;
+}
+
+.keeping_student_focused {
+  width: 1350px;
+  height: 700px;
+  overflow:hidden;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.keeping_student_focused a, .teaching_resources a {
+  text-decoration: none;
+  padding-bottom: 5em;
+}
+
+.show {
+  display: block;
+  width:100%;
+  height: 75%;
+  object-fit: cover;
+  margin-top: -100px;
+  margin-bottom: -150px;
+}
+
+
+.content_of_big_picture {
+  position: absolute;
+  width: 389px;
+  height: 316px;
+  left: 55%;
+  top: 150px;
+}
+
+@font-face {
+  font-family: 'rowdies';
+  src: url('Rowdies-Regular.ttf');
+}
+
+h6 {
+  font-size: 64px;
+  font-style: normal;
+  line-height: 79.49px;
+  font-weight: 400;
+  color: black;
+  font-family: rowdies;
+}
+
+.learning_advice {
+  width: 100%;
+  padding-top: 5em;
+  text-align: center;
+}
+
+.advices {
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+  overflow: hidden;
+  border: solid 2px grey;  
+}
+
+
+.images_of_advices {
+  max-width: 400px;
+  max-height: 400px;
+  padding-bottom: 20px;
+}
+
+.content_of_advices {
+  width: 350px;
+  margin-left: 25px;
+  margin-right: 25px;  
+}
+
+h7 {
+  font-family: rowdies;
+  font-size: 27px;
+  font-weight: 400;
+  color: black;    
+}
+
+.learning_advice a {
+  text-decoration: none;
+}
+
+.topic_of_bottom_section {
+  padding-top: 6em;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+.teaching_resources {
+  width: 100%;
+  padding-top: 5em;
+  text-align: center;
+}
+
+.resources {
+  width: 575px;
+  height: 440px;
+  display: inline-block;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border: solid 2px grey; 
+}
+
+.images_of_resources {
+  max-width: 575px;
+  max-height: 350px;
+  padding-bottom: 10px;
+}
+
+.content_of_resources {
+  width: 535px;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center; 
+}
+
+.more {
+  font-family: rowdies;
+  font-size: 38px;
+  padding-top: 1em;
+  padding-left: 75%;
+  padding-bottom: 4em;
+}
+
+.more a {
+  text-decoration: none;
+  color: black;
+}
+
+#map{
+  display: inline;
+  width: 500pt;
+  border: #FB7813;
+}
+
+#quiz_section {
+  background-color: #bce826;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 70em;
+  display: flex;
+  align-items: center;
+}
+
+.quiz_content {
+  width: 80%;
+  height: 80%;
+  border: 5px solid black;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.quiz_content h1 {
+  text-align: left;
+  font-size: 3em;
+  padding-left: 2em;
+  padding-top: 1em;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.quiz_content img {
+  max-width: 60%;
+  padding: 2em;
+}
+
+.quiz_content h2 {
+  padding-top: 2em;
+  font-size: 2.2em;
+}
+
+/* below code are refer to the https://codepen.io/Coding_Journey/pen/YzKpLvE */
+
+.draggable-elements {
+  display: flex;
+  justify-content: center;
+  height: 8em;
+  margin-top: 5em;
+}
+
+.draggable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+  margin: 0em 1em;
+  cursor: move;
+  opacity: 0.7;
+}
+
+#cat {
+  color: #ff6384;
+}
+
+#dog {
+  color: #36a2eb;
+}
+
+#frog {
+  color: #4bc0c0
+}
+
+#fish {
+  color: #9966ff
+}
+
+#dove {
+  color: #ffce56
+}
+
+.draggable:hover {
+  opacity: 1;
+  font-size: 5.3em;
+  transition: 0.5s ease;
+}
+
+.droppable-elements {
+  display: flex;
+  margin-top: 5em;
+}
+
+.droppable {
+  height: 2em;
+  width: 2em;
+  margin: 0.5em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  font-size: 3.3em;
+  font-weight: bold;
+  background-color: #fff;
+  border: 3px dashed #111;
+}
+.droppable span {
+  font-size: 1.25rem;
+  pointer-events: none;
+}
+
+/* Drag and Drop Related Styling */
+
+.droppable.droppable-hover {
+  border-width: 5px;
+  transform: scale(1.1);
+}
+
+.droppable.dropped {
+  border-style: solid;
+  color: #fff;
+}
+
+.droppable.dropped span {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.droppable.dropped i {
+  pointer-events: none;
+}
+
+.draggable.dragged {
+  user-select: none;
+  opacity: 0.1;
+  cursor: default;
+}
+
+.draggable.dragged:hover {
+  opacity: 0.1;
+}
