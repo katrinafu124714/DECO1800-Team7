@@ -19,9 +19,10 @@
         
 
         $CommonName = $data['Species']['0']['AcceptedCommonName'];
-        $CommonName = str_replace("-"," ",$CommonName);
+        // $CommonName = str_replace("-"," ",$CommonName);
         $FamilyCommonName = $data['Species']['0']['FamilyCommonName'];
         $Edemecity = $data['Species']['0']['Endemicity'];
+   
   
 
         $ScientificName = $data['Species']['0']['ScientificName'];
@@ -42,7 +43,7 @@
             $specie_image_url = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=".rawurlencode($ScientificName);
             $img = json_decode(file_get_contents($specie_image_url),true)['query']['pages'][0]['original']['source'];
             if ($img == null) {
-                $specie_image_url = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=".rawurlencode(explode(" ", $specie)[1]);
+                $specie_image_url = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=".rawurlencode(explode(" ", $specie, 1)[1]);
                 $img = json_decode(file_get_contents($specie_image_url),true)['query']['pages'][0]['original']['source'];
                 // echo $specie_image_url;
                 if ($img == null) {
@@ -77,7 +78,7 @@
             </div>
             <div class=\"particular_animal_detail\">
             <h1>Family Common Name: $FamilyCommonName</h1>
-            <h1>Endemicity: $Edemecity </h1>
+            <h1>Endemicity(Whether the specie is native to the area): $Edemecity</h1>
                 <div class =\"view_on_map_button\">
                 <a href='explore.php?id=$CommonName'>View on map</a>
                 </div>

@@ -68,11 +68,11 @@
             $specie = $_GET['id'];
             $select_list = null;
 
-            $mammals_list = array("koala", "kangaroo", "humpback whale", "possum", "Dingo", "wallaby");
+            $mammals_list = array("koala", "red kangaroo", "humpback whale", "possum", "Dingo", "wallaby");
             $birds_list = array("Australian reed warbler", "stork", "green catbird", "sooty shearwater", "golden-headed cisticola", "masked woodswallow");
             $fishs_list = array("smooth stingray", "silky shark", "Australian bass", "barramundi", "australian smelt", "wallaby");
-            $reptiles_list = array("freshwater crocodile", "Eastern water dragon", "common death adder", "chameleon gecko", "saw-shelled turtle", "wallaby");
-            $amphibians_list = array("cane toad", "treefrog", "wallum sedge frog", "possum", "Dingo", "wallaby");
+            $reptiles_list = array("freshwater crocodile", "Eastern water dragon", "common death adder", "chameleon gecko", "saw-shelled turtle", "painted dragon");
+            $amphibians_list = array("cane toad", "green treefrog", "wallum sedge frog", "rough frog", "javelin frog", "Revealed frog");
             $invertebrate_list = array("Richmond birdwing butterfly", "Boggmoss snail", "Cairns birdwing", "Desert Scorpion", "Dead Leaf Grasshopper", "green snail");
 
             switch ($specie) {
