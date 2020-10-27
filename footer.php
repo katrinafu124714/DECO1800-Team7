@@ -1,6 +1,6 @@
 <footer>
   <section>
-    <a href="about.html">About us</a>
+    <a href="about_us.php">About us</a>
     <a href="">Join us</a>
     <a href="">Subscribe</a>
   </section>
