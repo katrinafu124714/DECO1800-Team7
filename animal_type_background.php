@@ -73,7 +73,7 @@
             $fishs_list = array("smooth stingray", "silky shark", "Australian bass", "barramundi", "australian smelt", "wallaby");
             $reptiles_list = array("freshwater crocodile", "Eastern water dragon", "common death adder", "chameleon gecko", "saw-shelled turtle", "painted dragon");
             $amphibians_list = array("cane toad", "green treefrog", "wallum sedge frog", "rough frog", "javelin frog", "Revealed frog");
-            $invertebrate_list = array("Richmond birdwing butterfly", "Boggmoss snail", "Cairns birdwing", "Desert Scorpion", "Dead Leaf Grasshopper", "green snail");
+            $invertebrate_list = array("Richmond birdwing butterfly", "Boggmoss snail", "Cairns birdwing", "Desert Scorpion", "Australian emperor", "green snail");
 
             switch ($specie) {
                 case "mammal":
