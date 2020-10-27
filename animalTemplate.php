@@ -50,10 +50,12 @@
                     // echo "abc";
                     $specie_image_url = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=".rawurlencode($CommonName);
                     $img = json_decode(file_get_contents($specie_image_url),true)['query']['pages'][0]['original']['source'];
-                    echo $specie_image_url;
                 }
             }
-            // echo $img;
+        }
+        // if still null
+        if ($img == null) {
+            $img = "https://cdn.browshot.com/static/images/not-found.png";
         }
 
         // this regex method is refer to https://stackoverflow.com/questions/8175655/preg-replace-all-spaces/48081908
