@@ -107,14 +107,36 @@
         <div class="mammal_title">
             <?php 
             $specie = $_GET['id'];
+            $select_description = null;
+
+            $mammals_description = "Mammals are among the most adaptable animals on the planet. They are found on every continent and in every ocean, and range in size from tiny bumblebee bats to enormous blue whales. Mammals as a group use every possible form of locomotion. Terrestrial species walk, run, jump, climb, hop, swing, dig, and burrow. Aquatic ones swim, shuffle, and dive.";
+            $birds_description = "Birds are vertebrate animals adapted for flight. Many can also run, jump, swim, and dive. Some, like penguins, have lost the ability to fly but retained their wings. Birds are found worldwide and in all habitats. The largest is the nine-foot-tall ostrich. The smallest is the two-inch-long bee hummingbird.";
+            $fish_description = "All fish share two traits: they live in water and they have a backbone—they are vertebrates.Apart from these similarities, however, many of the species in this group differ markedly from one another. Some species, such as the weedy sea dragon, are so bizarre they seem almost unreal.";
+            $invertebrates_description = "Invertebrates are animals without a backbone or bony skeleton.They range in size from microscopic mites and almost invisible flies to giant squid with soccer-ball-size eyes.";
+            $amphibians_description = "Amphibians are small vertebrates that need water, or a moist environment, to survive.The species in this group include frogs, toads, salamanders, and newts. All can breathe and absorb water through their very thin skin.";
+            $reptiles_description = "Reptiles are air-breathing vertebrates covered in special skin made up of scales, bony plates, or a combination of both.They include crocodiles, snakes, lizards, turtles, and tor- toises. All regularly shed the outer layer of their skin. Their metabolism depends on the temperature of their environment.";
+        
+
+              if ($specie ==="koala" || $specie ==="red kangaroo" || $specie ==="humpback whale" || $specie ==="possum" || $specie ==="Dingo" || $specie === "wallaby") {
+                $select_description = $mammals_description;
+            } elseif ($specie ==="Australian reed warbler" || $specie ==="pacific black duck" || $specie ==="green catbird" || $specie ==="sooty shearwater" || $specie ==="golden-headed cisticola" || $specie === "masked woodswallow") {
+                $select_description = $birds_description;
+            } elseif ($specie ==="smooth stingray" || $specie ==="silky shark" || $specie ==="Australian bass" || $specie ==="barramundi" || $specie ==="australian smelt" || $specie === "Eastern blue groper") {
+                $select_description = $fish_description;
+            } elseif ($specie ==="freshwater crocodile" || $specie ==="Eastern water dragon" || $specie ==="common death adder" || $specie ==="chameleon gecko" || $specie ==="saw-shelled turtle" || $specie === "painted dragon") {
+                $select_description = $reptiles_description;
+            } elseif ($specie ==="cane toad" || $specie ==="green treefrog" || $specie ==="wallum sedge frog" || $specie ==="rough frog" || $specie ==="javelin frog" || $specie === "Revealed frog") {
+                $select_description = $amphibians_description;
+            } elseif ($specie ==="Richmond birdwing butterfly" || $specie ==="Boggmoss snail" || $specie ==="Cairns birdwing" || $specie ==="Desert Scorpion" || $specie ==="Australian emperor" || $specie === "green snail") {
+                $select_description = $invertebrates_description;
+            }
             
             echo "<section class=\"{$specie}_backgound\">
                 <h1> $specieTitle </h1>
-                </section>";
-
+                </section>
+                <div class=\"horizontal_line\"></div>
+                <p>$select_description</p>";
                 ?>
-            <div class="horizontal_line"></div>
-            <p>Mammals (from Latin mamma "breast") are vertebrate animals constituting the class Mammalia (/məˈmeɪliə/), and characterized by the presence of mammary glands which in females produce milk for feeding (nursing) their young, a neocortex (a region of the brain), fur or hair, and three middle ear bones. </p>
         </div>
     </section>
 
