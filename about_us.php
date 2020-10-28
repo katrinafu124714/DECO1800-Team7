@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/style.css" >
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <title>Wildlife Guide Junior - Learn</title>
+  <title>Wildlife Guide Junior - About us</title>
 </head>
 <body>
 <?php include('header.php')?>
