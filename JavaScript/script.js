@@ -28,8 +28,7 @@ function getYear(year) {
 }
 
 function iterateRecords(results) {
-	// document.getElementById('map').innerHTML = "<article id='map' style='position: relative; height: 500pt;	width: 80%;align-self: center;display: inline-block;margin:10%;margin-top: 2%;></article>";
-
+	// Line 32-45 are from workshop 6
 	var myMap = L.map("map").setView([-21, 148], 4);
 
 	L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoidXFpZHJ1Z28iLCJhIjoiY2tlcDdmbDV2MDc2ZjJ4bnk5bTgwcmkwbSJ9.aiKl3J-I-lVcj0iTllZlpg", {
@@ -59,8 +58,8 @@ function iterateRecords(results) {
 	});
 }
 
-
 function loadMap(){
+	// The following codes are from workshop 6
 	$(document).ready(function() {
 		$.ajax({
 			url: "https://biocache.ala.org.au/ws/occurrences/search",
