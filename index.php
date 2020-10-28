@@ -21,25 +21,25 @@
   <section id = "article_slider_container">
     <section id="slider">
       <div class="autoslider">
-        <a href="">
+        <a href="https://www.thedodo.com/16-amazing-animal-facts-1094218100.html">
         <img src="images/koala_article.jpg">
         </a>
       </div>
     
       <div class="autoslider">
-        <a href="">
+        <a href="https://www.thedodo.com/16-amazing-animal-facts-1094218100.html">
         <img src="images/bird_article.jpg">
         </a>
       </div>
     
       <div class="autoslider">
-        <a href="">
+        <a href="https://www.thedodo.com/16-amazing-animal-facts-1094218100.html">
         <img src="images/lion_article.jpg">
         </a>
       </div>
     </section>
 
-    <div class="Unique_fact">Animal <br> 20 <br> Unique <br> Facts</div>
+    <div class="Unique_fact">Animal <br> 16 <br> Unique <br> Facts</div>
     <a class="prev" onclick="slidesControler(-1)">&#10094;</a>
     <a class="next" onclick="slidesControler(1)">&#10095;</a>
     
