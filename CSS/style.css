@@ -207,6 +207,7 @@ header #teacher_mode a, #student_mode a {
 #animal_type_selection h1 {
   padding: 1em;
   font-size: 5em;
+  font-family: rawdies;
 }
 
 #animal_type_selection h2 {

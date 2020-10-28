@@ -7,17 +7,6 @@
   <script src="splide-2.4.12/dist/js/splide.js"></script>
   <link rel="stylesheet" href="CSS/style.css" >
   <title>Wildlife Guide Junior - Learn</title>
-</head><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="splide-2.4.12/dist/css/splide.min.css">
-  <script src="splide-2.4.12/dist/js/splide.js"></script>
-  <link rel="stylesheet" href="CSS/style.css" >
-  <title>Wildlife Guide Junior - Learn</title>
-</head>
-
 
 <!-- ----------------------------LOGO && Search box------------------------------------ -->
 <main>
