@@ -28,7 +28,7 @@
 <p>Barramundi. (n.d.). [Photograph]. https://images.app.goo.gl/hCGf36fQa5gDnDQv9</p>
 <p></p>
 <p>Barramundi cartoon. (n.d.). [Cartoon image]. https://images.app.goo.gl/AL574vYZqE8cf9is9</p>
-<p></p>
+<p>Blue Whales 101 | Nat Geo Wild. (2020). Retrieved 18 October 2020, from https://www.youtube.com/watch?v=bgiPTUy2RqI</p>
 <p>Boggess snail. (n.d.). [Photograph]. https://images.app.goo.gl/1B8WHvka9pBqoLBh9</p>
 <p></p>
 <p>Boggess snail cartoon. (n.d.). [Cartoon image]. https://images.app.goo.gl/cruddiy1Jzr9z81Z6</p>
@@ -76,7 +76,7 @@
 <p>Kangaroo cartoon. (n.d.). [Cartoon image]. https://www.freepik.com/free-vector/illustration-drawing-style-set-wildlife_3129739.htm#page=1&query=cartoon%20kangaroo&position=14</p>
 <p></p>
 <p>Koala icon. (2020). [Icon]. https://www.flaticon.com/free-icon/koala_3069172</p>
-<p></p>
+<p>Koalas 101 | Nat Geo Wild. (2020). Retrieved 16 October 2020, from https://www.youtube.com/watch?v=oI3ADcDH0Uc</p>
 <p>Kinnear, S. P. (2018). Mammal [Photograph]. https://unsplash.com/photos/FQjmQgSoRyQ</p>
 <p></p>
 <p>Kuwamura, K. (2018). white wall background [Photograph]. https://unsplash.com/photos/LzgK6IMoSZM</p>
@@ -112,6 +112,8 @@
 <p></p>
 <p>Silky shark cartoon. (n.d.). [Cartoon image]. https://images.app.goo.gl/BZYj9PuY88Li4sjJA</p>
 <p>StackOverflow (spaces, Byers & Mohan, 2020)</p>
+<p>The Kangaroo is the World's Largest Hopping Animal | National Geographic. (2020). Retrieved 18 October 2020, from https://www.youtube.com/watch?v=8BbZTCdB2X4</p>
+<p>The Glass Frog: Ultimate Ninja Dad | Animal 24. (2020). Retrieved 16 October 2020, from https://www.youtube.com/watch?v=U7zARByAu1c</p>
 <p>Torres, D. (2018). Invertebrates [Photograph]. https://unsplash.com/photos/OIl9uwiy10Q</p>
 <p></p>
 <p>Tree frog. (2018). [Photograph]. https://unsplash.com/photos/OZJdNV99BgU</p>
@@ -127,5 +129,6 @@
 <p>Wallaby cartoon. (n.d.). [Cartoon image]. https://www.freepik.com/premium-vector/cute-kangaroo-mascot-vector-design_6407553.htm</p>
 <p>W3.CSS Slideshow. (2020). Retrieved 18 October 2020, from https://www.w3schools.com/w3css/w3css_slideshow.asp</p>
 <p>Yurasits, B. (2019). Australian bass [Photograph]. https://unsplash.com/photos/891v7kZMSMg</p>
+<p>8K Wildlife of Kgalagadi Transfrontier Park, South Africa - Part #2. (2020). Retrieved 17 October 2020, from https://www.youtube.com/watch?v=XcQIXKbGios&feature=emb_title&ab_channel=4KRelaxationChannel</p>
 
 </body>
