@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- this icon is refer to https://fontawesome.com/icons?d=gallery -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
   <link rel="stylesheet" href="CSS/style.css" >
   <title>Wildlife Guide Junior - Quiz</title>
@@ -29,7 +30,7 @@ include('header.php');
         <i class="fas fa-frog draggable" draggable="true" id="frog"></i>
       </section>
             
-                <!-- this code are refer to https://codepen.io/Coding_Journey/pen/YzKpLvE -->
+        <!-- this code are refer to https://codepen.io/Coding_Journey/pen/YzKpLvE -->
       <section class="droppable-elements">
         <div class="droppable" data-draggable-id="frog"><span>Frog</span></div>
         <div class="droppable" data-draggable-id="dove"><span>Bird</span></div>

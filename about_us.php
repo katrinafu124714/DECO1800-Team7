@@ -34,7 +34,7 @@
 <p>Boggess snail cartoon. (n.d.). [Cartoon image]. https://images.app.goo.gl/cruddiy1Jzr9z81Z6</p>
 <p></p>
 <p>Buchanan, A. (2020). yellow wall background [Photograph]. https://unsplash.com/photos/pVMhOC7HnzQ</p>
-<p></p>
+<p>Byers, M., & Mohan, M. (2020). preg_replace all spaces. Retrieved 21 October 2020, from https://stackoverflow.com/questions/8175655/preg-replace-all-spaces/48081908</p>
 <p>Cairns birdwing. (2019). [Photograph]. https://unsplash.com/photos/Oq9JrJb6K7M</p>
 <p></p>
 <p>Cane toad. (2018). [Photograph]. https://unsplash.com/photos/v5AG4QUfyx8</p>
@@ -64,13 +64,13 @@
 <p>Freshwater crocodile. (2018). [Photograph]. https://unsplash.com/photos/Uuzq37W5HXs</p>
 <p></p>
 <p>Freshwater crocodile cartoon. (n.d.). [Cartoon image]. https://images.app.goo.gl/y7rQEZ4wg6iTzWDs9</p>
-<p></p>
+<p>Font Awesome. (2020). Retrieved 20 October 2020, from https://fontawesome.com/icons?d=gallery</p>
 <p>Green snail. (2018). [Photograph]. https://unsplash.com/photos/lUD9KmRnxDE</p>
-<p></p>
+<p>Google Fonts. (2020). Retrieved 20 October 2020, from https://fonts.google.com/specimen/Rowdies?query=rowdies&sidebar.open=true&selection.family=Rowdies:wght@700</p>
 <p>H, L. (2020). Giraffe and her calf [Photograph]. https://unsplash.com/photos/gOWuRBY7gDM</p>
 <p></p>
 <p>Hennessy, R. (2018). Australian reed warbler [Photograph]. https://unsplash.com/photos/w-xLR4q5MXM</p>
-<p></p>
+<p>HTML Drag and Drop API - Example 1. (2019). Retrieved 18 October 2020, from https://codepen.io/Coding_Journey/pen/YzKpLvE</p>
 <p>Humpback cartoon. (n.d.). [Cartoon image]. https://www.freepik.com/free-vector/humpback-whale-nature-scene-silhouette_10139136.htm#page=1&query=cartoon+humpback&position=28</p>
 <p></p>
 <p>Kangaroo cartoon. (n.d.). [Cartoon image]. https://www.freepik.com/free-vector/illustration-drawing-style-set-wildlife_3129739.htm#page=1&query=cartoon%20kangaroo&position=14</p>
@@ -111,7 +111,7 @@
 <p>Silky shark. (2018). [Photograph]. https://unsplash.com/photos/GBDkr3k96DE</p>
 <p></p>
 <p>Silky shark cartoon. (n.d.). [Cartoon image]. https://images.app.goo.gl/BZYj9PuY88Li4sjJA</p>
-<p></p>
+<p>StackOverflow (spaces, Byers & Mohan, 2020)</p>
 <p>Torres, D. (2018). Invertebrates [Photograph]. https://unsplash.com/photos/OIl9uwiy10Q</p>
 <p></p>
 <p>Tree frog. (2018). [Photograph]. https://unsplash.com/photos/OZJdNV99BgU</p>
@@ -125,7 +125,7 @@
 <p>White, B. (n.d.). Boy sitting on the bench [Photograph]. https://unsplash.com/photos/4K2lIP0zc_k</p>
 <p></p>
 <p>Wallaby cartoon. (n.d.). [Cartoon image]. https://www.freepik.com/premium-vector/cute-kangaroo-mascot-vector-design_6407553.htm</p>
-<p></p>
+<p>W3.CSS Slideshow. (2020). Retrieved 18 October 2020, from https://www.w3schools.com/w3css/w3css_slideshow.asp</p>
 <p>Yurasits, B. (2019). Australian bass [Photograph]. https://unsplash.com/photos/891v7kZMSMg</p>
 
 </body>
