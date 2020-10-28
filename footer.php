@@ -6,9 +6,9 @@
   </section>
   <section>
     <a href="about.html">Follow us on</a>
-    <a href="">Fackbook</a>
-    <a href="">Instagram</a>
-    <a href="">Twitter</a>
+    <a href="https://www.facebook.com/uniofqld/">Fackbook</a>
+    <a href="https://www.instagram.com/uniofqld/">Instagram</a>
+    <a href="https://twitter.com/uq_news">Twitter</a>
   </section>
   <section>
     <img src="images/Logo.png">
