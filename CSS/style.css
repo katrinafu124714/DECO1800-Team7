@@ -1546,7 +1546,8 @@ h7 {
 .prev_question, .next_question {
   cursor: pointer;
   position: absolute;
-  top: 75%;
+  margin-top:11em;
+  /* top: 75%; */
   width: 5em;
   color:black;
   font-weight: bold;
