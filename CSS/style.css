@@ -50,7 +50,7 @@ header #teacher_mode, #student_mode {
 
 header #teacher_mode a, #student_mode a {
   color: #158467;
-  font-family: Roboto Mono;
+  font-family: 'Rowdies', cursive;
   font-weight: Bold;
   font-size: 2em;
   text-decoration: none;
@@ -108,7 +108,7 @@ header #teacher_mode a, #student_mode a {
 #navigation a {
   color: black;
   padding: 0em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Rowdies', cursive;
   font-weight: bold;
   font-size: 3em;
   text-decoration: none;
@@ -207,7 +207,7 @@ header #teacher_mode a, #student_mode a {
 #animal_type_selection h1 {
   padding: 1em;
   font-size: 5em;
-  font-family: rawdies;
+  font-family: 'Rowdies', cursive;
 }
 
 #animal_type_selection h2 {
@@ -249,7 +249,7 @@ header #teacher_mode a, #student_mode a {
 }
 
 .animal_types p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Rowdies', cursive;
   font-weight: bold;
   color: white;
   padding: 0.3em;
@@ -623,6 +623,7 @@ footer section a{
   color: black;
   font-weight: bold;
   height: 2em;
+  font-family: 'Rowdies', cursive;
 }
 
 /* animal_types_page */
@@ -1069,6 +1070,7 @@ footer section a{
 
 .mammal_title h1 {
   font-size: 4em;
+  font-family: 'Rowdies', cursive;
 }
 
 

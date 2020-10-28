@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="splide-2.4.12/dist/css/splide.min.css">
   <script src="splide-2.4.12/dist/js/splide.js"></script>
   <link rel="stylesheet" href="CSS/style.css" >
+  <!-- this code are refer to https://fonts.google.com/specimen/Rowdies?query=rowdies&sidebar.open=true&selection.family=Rowdies:wght@700 -->
+  <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
   <title>Wildlife Guide Junior - Learn</title>
 
 <!-- ----------------------------LOGO && Search box------------------------------------ -->
