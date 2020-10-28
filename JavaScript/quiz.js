@@ -59,6 +59,8 @@ function drop(event) {
   }
 }
 
+// below code are refer to https://www.w3schools.com/howto/howto_js_quotes_slideshow.asp
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
