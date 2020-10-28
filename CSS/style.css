@@ -1542,3 +1542,62 @@ h7 {
 .draggable.dragged:hover {
   opacity: 0.1;
 }
+
+.prev_question, .next_question {
+  cursor: pointer;
+  position: absolute;
+  top: 75%;
+  width: 5em;
+  color:black;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 5px 5px 5px 5px;
+  user-select: none;
+  padding: 16px;
+}
+
+.prev_question {
+  left: 15%;
+}
+.next_question {
+  right: 15%;
+}
+
+.prev_question:hover, .next_question:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.options {
+  font-size: 30px;
+  width: auto;
+  border:none;
+  background:transparent;
+  margin-top: 100px;
+  margin-bottom: -40px;
+  text-align: left;
+  display: block;
+  margin-left: 450px;
+  padding: 5px 5px 5px 5px;
+}
+
+.short_options {
+  font-size: 30px;
+  width: auto;
+  border:none;
+  background:transparent;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 5px 5px 5px 5px;
+}
+
+.options:hover {
+  border:2px black solid;
+}
+
+.image_of_quiz {
+  margin-top: 25px;
+  size: 110%;
+}
