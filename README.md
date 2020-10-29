@@ -22,13 +22,27 @@ PHP is used to dynamically generate content from queried information. If we were
 
 
 ## Deisign considerations?
+* colourful and eye catching for our target audience. 
+* plenty of cartoon images and icons for children.
 
 ## why use these interactions ?
+* the map is used to provide an straight forward way to visualise the distribution of animal habitats. 
+* Quiz to add interactivity 
+* short video to help student learn 
 
 ## why php over javascript ?
 If we using HTML to do the website, we will have over 200 pages for many animal. Therefore, we use PHP to dynamic generate the web page.
 
 ## how do you justify using server side language over client side language
+
+
+
+
+
+
+
+
+## ptich script
 
 
 
