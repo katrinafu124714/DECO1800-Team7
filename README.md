@@ -26,6 +26,7 @@ PHP is used to dynamically generate content from queried information. If we were
 ## why use these interactions ?
 
 ## why php over javascript ?
+If we using HTML to do the website, we will have over 200 pages for many animal. Therefore, we use PHP to dynamic generate the web page.
 
 ## how do you justify using server side language over client side language
 
