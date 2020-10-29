@@ -1,3 +1,4 @@
+// this code this refer to https://learn.uq.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_131162_1&content_id=_5777640_1
 var isLoading = true;
 var data = {
 	q: "Koala",
