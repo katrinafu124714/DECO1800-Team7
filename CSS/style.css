@@ -1551,7 +1551,7 @@ h7 {
 .prev_question, .next_question {
   cursor: pointer;
   position: absolute;
-  margin-top:11em;
+  margin-top:22em;
   /* top: 75%; */
   width: 5em;
   color:black;
