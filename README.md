@@ -1,7 +1,7 @@
 # DECO1800-Team7
 Project for an interactive wildlife-themed website
 
-# Purpose
+# Purpose & Motivation
 The purpose of this website to teach children about animals in Australia, specifically ones from queensland. Animals are very important inhabitants in this shared world. By sparking curiosity in Children, we wanted them to have compassaion and empathy towards other inhabitants on this planet earth.
 
 
@@ -12,15 +12,22 @@ Wildlife guide junior is an interactive and engaging platform for young students
 
 
 ## API queries:
-Specific animal information are queried from Queensland WildNet API
-location information (animal sightings) are queried from Atals of Living Australia (these information are projected onto the map).
-Specie image is retrieved from Wikipedia API.
+* Specific animal information are queried from Queensland WildNet API
+* location information (animal sightings) are queried from Atals of Living Australia (these information are projected onto the map).
+* Specie image is retrieved from Wikipedia API.
 
 ## Server side language jsutification:
 PHP is used to dynamically generate content from queried information. If we were to used HTML to build a static website, there would be over 200 static pages. 
 
-## Motivation:
 
+
+## Deisign considerations?
+
+## why use these interactions ?
+
+## why php over javascript ?
+
+## how do you justify using server side language over client side language
 
 
 
